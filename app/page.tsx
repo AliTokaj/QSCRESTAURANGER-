@@ -24,7 +24,7 @@ export default function Home() {
           playsInline // Important for iOS
           className="absolute z-0 w-auto min-w-full min-h-full max-w-none object-cover"
         >
-          <source src="/Invigning.mp4" type="video/mp4" />
+          <source src="https://jwjkjtcy7uinhtie.public.blob.vercel-storage.com/Invigning.mp4" type="video/mp4" />
           
           {/* Fallback format */}
           Your browser does not support the video tag.
