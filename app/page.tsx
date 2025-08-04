@@ -134,7 +134,7 @@ export default function Home() {
 
           {/* Image Grid */}
           <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mt-8">
-            {["/2.jpg", "/3.jpg", "/4.jpg", "/5.jpg", "/6.jpg", "/7.jpg","/11.jpg","/10.png","/12.jpg"].map(
+            {["/2.jpg", "/3.jpg", "/4.jpg", "/5.jpg", "/6.jpg", "/7.jpg","/11.jpg","/qsc-heart.png","/12.jpg"].map(
               (src, index) => (
                 <div
                   key={index}
