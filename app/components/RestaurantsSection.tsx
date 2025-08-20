@@ -1,10 +1,12 @@
 "use client";
-import React, { useCallback, useState } from "react";
+import React, { useCallback, useState, useRef } from "react";
 import {
   APIProvider,
   Map,
   AdvancedMarker,
   InfoWindow,
+  Pin,
+  useMap,
 } from "@vis.gl/react-google-maps";
 
 // Make sure these env variables are typed in `next.config.js` or `env.d.ts` if needed
@@ -153,6 +155,46 @@ const restaurantLocations: RestaurantLocation[] = [
   },
 ];
 
+// Map controller component to handle zoom and center changes
+const MapController = ({
+  selectedMarker,
+  onClose,
+}: {
+  selectedMarker: RestaurantLocation | null;
+  onClose: () => void;
+}) => {
+  const map = useMap();
+  const prevCenterRef = useRef(center);
+  const prevZoomRef = useRef(5);
+
+  React.useEffect(() => {
+    if (!map) return;
+
+    if (selectedMarker) {
+      // Store current position and zoom before changing
+      const currentCenter = map.getCenter();
+      const currentZoom = map.getZoom();
+      
+      if (currentCenter) {
+        prevCenterRef.current = { lat: currentCenter.lat(), lng: currentCenter.lng() };
+      }
+      if (currentZoom) {
+        prevZoomRef.current = currentZoom;
+      }
+      
+      // Zoom to the selected marker
+      map.setCenter(selectedMarker);
+      map.setZoom(15);
+    } else {
+      // Return to original position when marker is closed
+      map.setCenter(prevCenterRef.current);
+      map.setZoom(prevZoomRef.current);
+    }
+  }, [selectedMarker, map]);
+
+  return null;
+};
+
 const RestaurantsMap: React.FC = () => {
   const [selectedMarker, setSelectedMarker] =
     useState<RestaurantLocation | null>(null);
@@ -161,20 +203,16 @@ const RestaurantsMap: React.FC = () => {
     setSelectedMarker(location);
   }, []);
 
-  const handleClose = useCallback(() => setSelectedMarker(null), []);
-  const pinIcon = {
-    url: "/s-pomes.svg", // Path to your custom pin icon
-    scaledsize: { width: 150, height: 80}, // Adjust size as needed
-  };
+  const handleClose = useCallback(() => {
+    setSelectedMarker(null);
+  }, []);
 
   return (
-    <section className="py-20 px-4 ">
+    <section className="w-full">
       <div className="max-w-5xl mx-auto text-center">
-        <h2 className="text-3xl md:text-4xl lg:text-5xl font-display font-bold mb-4">
-          Våra Restauranger i <span className="text-[#F9D00F]">Sverige</span>
-        </h2>
+        
       </div>
-      <div className="max-w-7xl mx-auto mt-8 h-[500px]">
+      <div className="w-full mt-8 h-[500px]">
         <APIProvider apiKey={API}>
           <Map
             mapId={MapID}
@@ -182,22 +220,23 @@ const RestaurantsMap: React.FC = () => {
             defaultZoom={5}
             className="w-full h-full rounded-lg shadow-md"
           >
+            <MapController selectedMarker={selectedMarker} onClose={handleClose} />
+            
             {restaurantLocations.map((location, index) => (
               <AdvancedMarker
                 key={index}
                 position={{ lat: location.lat, lng: location.lng }}
                 title={location.name}
                 onClick={() => handleMarkerClick(location)}
-                
               >
-                  <img 
-      src={pinIcon.url} 
-      alt="Restaurant location"
-      style={{ width: `${pinIcon.scaledsize.width}px`, height: `${pinIcon.scaledsize.height}px` }}
-    />
-   
+                <Pin
+                  background={"#DA291C"}
+                  glyphColor={"#FFC72C"}
+                  borderColor={"#DA291C"}
+                />
               </AdvancedMarker>
             ))}
+            
             {selectedMarker && (
               <InfoWindow
                 position={{

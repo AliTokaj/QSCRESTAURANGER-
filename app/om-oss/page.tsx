@@ -3,6 +3,7 @@ import ValuesSection from "../components/ValuesSection";
 import Timeline from "../components/Timeline";
 import Facts from "../components/Facts";
 import Image from "next/image";
+import RestaurantsSection from "../components/RestaurantsSection";
 
 const Page = () => {
   return (
@@ -20,6 +21,7 @@ const Page = () => {
           </div>
         </div>
       </section>
+      
    <div className=" w-1/2 right-0 absolute 
           "> 
             <Image
@@ -30,6 +32,7 @@ const Page = () => {
                 className="w-full h-auto"
             />
         </div>
+         <Timeline />
 
       {/* Our Story Section */}
       <section className="max-w-7xl mx-auto mt-20">
@@ -50,7 +53,7 @@ const Page = () => {
               <span className="bg-[#FFFDD0] text-black px-4 py-1 rounded-full text-sm font-semibold uppercase tracking-wide">
                 Team
               </span>
-              <h2 className="text-2xl sm:text-3xl md:text-4xl font-display font-bold mb-4 mt-4">
+              <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mt-4">
                 Outstanding restaurang{" "}
                 <span className="text-[#F0AE2C]">2024</span>
               </h2>
@@ -62,12 +65,12 @@ const Page = () => {
       </section>
 
       <ValuesSection />
-      <Timeline />
+     
       {/* Reklamsektion */}
       <section className="py-20 bg-white">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-display font-bold">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mt-4">
               Historiska<span className="text-[#F0AE2C]"> reklamfavoriter</span>{" "}
             </h2>
             <p className="text-gray-700 text-base sm:text-lg">
@@ -162,6 +165,9 @@ const Page = () => {
           </div>
         </div>
       </section>
+      <RestaurantsSection />
+
+    
 
       <Facts />
     </div>

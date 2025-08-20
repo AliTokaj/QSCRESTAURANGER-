@@ -7,7 +7,7 @@ import Image from "next/image";
 import RestaurantsSection from "../components/RestaurantsSection";
 import { AccordionDemo } from "../components/AccordionDemo";
 import dynamic from "next/dynamic";
-
+import EmployeeSection from "../components/EmployeeSection";
 const SwedenMap = dynamic(() => import("../components/SwedenMap"), {
   ssr: false,
 });
@@ -34,7 +34,7 @@ const JobbHosOss = () => {
 
   const startCounter = () => {
     let start = 0;
-    const end = 2000;
+    const end = 1500;
     const duration = 2000;
     const intervalTime = duration / end;
 
@@ -182,94 +182,9 @@ const JobbHosOss = () => {
         </div>
       </section>
 
-      {/* Our Foundation */}
-      <section className="py-16 md:py-24 bg-white">
-        <div className="container-custom px-4 sm:px-6">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            {/* Image Section */}
-            <motion.div
-              className="order-2 lg:order-1"
-              initial={{ opacity: 0, x: -50 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6 }}
-            >
-              <div className="relative w-full h-[400px] lg:h-[500px] rounded-xl overflow-hidden shadow-lg">
-                <Image
-                  src="/Grundenialltvigör.jpg"
-                  alt="Ansökningsprocessen"
-                  fill
-                  className="object-cover"
-                  priority
-                />
-              </div>
-            </motion.div>
-
-            {/* Text Section */}
-            <div className="order-1 lg:order-2">
-              <motion.div
-                initial={{ opacity: 0 }}
-                whileInView={{ opacity: 1 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.6 }}
-                className="text-center mb-12 lg:mb-16"
-              >
-                <h2 className="text-3xl md:text-4xl lg:text-5xl font-display font-bold mb-4">
-                  <span className="text-yellow-400">Grunden</span> i allt vi gör
-                </h2>
-                <p className="text-gray-700 text-lg md:text-xl max-w-2xl mx-auto">
-                  Vår verksamhet vilar på fyra tydliga principer som genomsyrar
-                  varje beslut, varje gästupplevelse och varje arbetsdag. De är
-                  vår kompass, vår kultur och vårt löfte.
-                </p>
-              </motion.div>
-
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-4xl mx-auto">
-                {[
-                  {
-                    number: 1,
-                    text: "Vi kompromissar aldrig med kvalitet. Från råvaror till bemötande och miljö – vi strävar alltid efter att överträffa förväntningar.",
-                  },
-                  {
-                    number: 2,
-                    text: "Våra medarbetares engagemang är vår största styrka. Hos oss arbetar människor med hjärta, vilket märks i allt från service till samarbete.",
-                  },
-                  {
-                    number: 3,
-                    text: "Vi välkomnar förändring. Med öppna ögon och nyfikenhet ser vi möjligheter där andra ser hinder – och driver branschen framåt.",
-                  },
-                  {
-                    number: 4,
-                    text: "Vi tar ansvar – för våra medarbetare, för miljön och för det samhälle vi verkar i. Hållbarhet är en självklar del av vår tillväxt.",
-                  },
-                ].map((item, index) => (
-                  <motion.div
-                    key={item.number}
-                    initial={{ opacity: 0, y: 20 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: true }}
-                    transition={{ duration: 0.5, delay: index * 0.1 }}
-                  >
-                    
-                    <div className="w-1400 h-14 bg-[#633200] text-white rounded-full flex items-center justify-center  mb-4 text-xl font-bold ">
-                      {item.number}
-                    </div>
-                    <div className="w-1400 h-14 bg-[#F0AE2C] text-white rounded-full flex items-center justify-center  mb-4 text-xl font-bold ">
-                      {item.number}
-                    </div>
-                    <p className="text-gray-700 text-base md:text-lg">
-                      {item.text}
-                    </p>
-                  </motion.div>
-                ))}
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Restaurants Section */}
-      <RestaurantsSection />
+    
+<EmployeeSection />
+      
 
       {/* FAQ Section */}
       <section className="bg-[#FBF7F7] py-16 px-4 sm:px-6 ">

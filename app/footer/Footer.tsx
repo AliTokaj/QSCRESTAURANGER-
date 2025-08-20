@@ -1,5 +1,5 @@
 import React from 'react';
-import { Instagram, Facebook, Twitter } from 'lucide-react';
+import { Instagram, Facebook, Twitter, Linkedin } from 'lucide-react';
 
 const Footer = () => {
   const year = new Date().getFullYear();
@@ -25,7 +25,7 @@ To make delicious feel-good moments easy for everyone
                 <Facebook size={20} />
               </a>
               <a href="#" className="text-white/70 hover:text-yellow-500 transition-colors duration-300">
-                <Twitter size={20} />
+                <Linkedin size={20} />
               </a>
             </div>
           </div>
@@ -81,7 +81,7 @@ To make delicious feel-good moments easy for everyone
               </li>
               <li className="text-white/70">
                 <span className="block font-medium">Antal anställda</span>
-                2000+
+                1500+
               </li>
             </ul>
           </div>
@@ -91,7 +91,7 @@ To make delicious feel-good moments easy for everyone
           <p>© {year} QSC Restauranger. All rights reserved.</p>
         </div>
         <div className="text-white/50 text-sm text-center mt-10">
-          <p>By <a href='https://drifaab.se/' className="hover:text-yellow-500 transition-colors duration-300">Drifa</a></p>
+          <p> Powered by <a href='https://drifaab.se/' className="hover:text-yellow-500 transition-colors duration-300">Drifa </a></p>
         </div>
       </div>
     </footer>

@@ -1,11 +1,11 @@
 "use client";
 import React from "react";
-import { motion } from "framer-motion";
+import { motion, Variants } from "framer-motion";
 import { Coffee, User, Handshake } from "lucide-react";
 
 const ValuesSection = () => {
-  // Animation variants for the cards
-  const cardVariants = {
+  // Explicitly typing variants with Framer Motion's Variants type
+  const cardVariants: Variants = {
     offscreen: {
       y: 50,
       opacity: 0,
@@ -14,7 +14,7 @@ const ValuesSection = () => {
       y: 0,
       opacity: 1,
       transition: {
-        type: "spring",
+        type: "spring", // ✅ type is restricted union, not just string
         bounce: 0.4,
         duration: 0.8,
       },
@@ -28,11 +28,11 @@ const ValuesSection = () => {
           <span className="bg-[#FFFDD0] text-black px-4 py-1 rounded-full text-sm font-semibold uppercase tracking-wide">
             Våra värderingar
           </span>
-          <h2 className="text-3xl md:text-4xl font-bold mb-6 leading-tight font-display mt-4">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mt-4">
             Det som gör oss till <span className="text-[#F0AE2C]">QSC</span>
           </h2>
           <p className="text-gray-700 text-base sm:text-lg max-w-2xl mx-auto">
-            Våra värderingar är mer än ord  de är vägledande principer som  allt vi gör
+            Våra värderingar är mer än ord – de är vägledande principer som styr allt vi gör.
           </p>
         </div>
 
@@ -50,7 +50,7 @@ const ValuesSection = () => {
             </div>
             <h3 className="text-xl font-bold mb-3">Kvalitet i varje detalj</h3>
             <p className="text-gray-700 text-base sm:text-lg">
-            Vi strävar alltid efter att leverera den högsta kvaliteten.
+              Vi strävar alltid efter att leverera den högsta kvaliteten.
             </p>
           </motion.div>
 
@@ -67,7 +67,7 @@ const ValuesSection = () => {
             </div>
             <h3 className="text-xl font-bold mb-3">Människor i centrum</h3>
             <p className="text-gray-700 text-base sm:text-lg">
-             Våra medarbetare och gäster är vår största tillgång. Vi skapar en inkluderande, trygg och trivsam miljö där alla känner sig sedda och uppskattade.
+              Våra medarbetare och gäster är vår största tillgång. Vi skapar en inkluderande, trygg och trivsam miljö där alla känner sig sedda och uppskattade.
             </p>
           </motion.div>
 
@@ -84,7 +84,8 @@ const ValuesSection = () => {
             </div>
             <h3 className="text-xl font-bold mb-3">Samhällsengagemang</h3>
             <p className="text-gray-700 text-base sm:text-lg">
-Genom lokala initiativ och hållbara val vill vi göra skillnad där vi verkar.            </p>
+              Genom lokala initiativ och hållbara val vill vi göra skillnad där vi verkar.
+            </p>
           </motion.div>
         </div>
       </div>
