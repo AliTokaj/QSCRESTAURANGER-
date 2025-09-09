@@ -1,4 +1,4 @@
-"use client"; 
+"use client";
 
 import React, { useState, useRef, useEffect } from "react";
 import EmployeeSection from "./components/EmployeeSection";
@@ -6,6 +6,7 @@ import Image from "next/image";
 import Timeline from "./components/Timeline";
 import { Users } from "lucide-react";
 import { motion } from "framer-motion";
+import ValuesSection from "./components/ValuesSection";
 
 interface Item {
   name: string;
@@ -21,16 +22,16 @@ export default function Home() {
     "/4.jpg",
     "/5.jpg",
     "/6.jpg",
-    "/7.jpg",
+    "7.jpg",
+
     "/11.jpg",
     "/12.jpg",
-    "/14.jpg",
-    "/15.jpg",
+
     "/16.jpg",
     "/17.jpg",
-    "/18.jpg",
+
     "/19.jpg",
-    "/20.jpg",
+
     "/21.jpg",
     "/22.jpg",
     "/23.jpg",
@@ -71,7 +72,7 @@ export default function Home() {
     <div>
       {/* ---------------- Hero Section ---------------- */}
       <div className="relative h-screen flex items-center justify-center overflow-hidden">
-    <video
+        <video
           autoPlay
           loop
           muted
@@ -181,8 +182,15 @@ export default function Home() {
       </section>
 
       {/* ---------------- Claes Section ---------------- */}
-      <div className="max-w-7xl mx-auto container-custom">
-        <div className="flex flex-col md:flex-row-reverse items-center md:space-x-reverse md:space-x-12 mt-20">
+      <div
+        className="max-w-7xl mx-auto container-custom relative overflow-hidden mt-20"
+        style={{
+          backgroundImage: "url('/resturang-map.svg')",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
+      >
+        <div className="flex flex-col md:flex-row-reverse items-center md:space-x-reverse md:space-x-12 py-8 md:py-20 px-4 md:px-0">
           <motion.div
             className="flex-shrink-0"
             initial={{ scale: 0.8, opacity: 0 }}
@@ -193,7 +201,8 @@ export default function Home() {
             <img
               src="/Claes-Göran-y.png"
               alt="claes"
-              className="w-100 h-100 object-cover rounded-full md:w-150 md:h-150"
+            className="w-80 h-80 object-cover rounded-full sm:w-100 sm:h-100 lg:w-150 lg:h-150"
+
             />
           </motion.div>
 
@@ -205,11 +214,24 @@ export default function Home() {
             transition={{ duration: 0.8, delay: 0.2 }}
           >
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mt-4">
-              <span className="text-yellow-400">Claes Göran</span> Jönsson
+              <span className="text-yellow-400">Claes-Göran</span> Jönsson
             </h2>
-            <p className="text-2xl font-semibold mt-1">(Franchisetagare)</p>
-            <p className="text-gray-700 text-base sm:text-lg mt-4">
-              Kort information
+            <p className="text-2xl font-semibold mt-1">
+              (Årets franchisetagare{" "}
+              <span className="text-yellow-400">2022</span>)
+            </p>
+            <p className="text-gray-700 text-base sm:text-lg mt-4 ">
+              Började jobba på McDonald's Örebro 1984 och hade redan då siktet
+              inställt högt och ville utvecklas inom McDonald's. <br />
+              Jag flyttade till Västerås 1990 och fick möjlighet att vara
+              ansvarig för de tre befintliga restaurangerna. <br />
+              1993 fick jag möjlighet att bli franchisetagare (JWP) tillsammans
+              med Svenska McDonalds och jag drev då 9 restauranger.
+              <br /> Från 2002 stod jag helt på egna ben och fick köpa
+              restaurangerna Hälla och Stenby i Västerås. 2016/2017 blev jag
+              kontaktad av norska McDonald's som behövde franchisetagare och då
+              fick jag möjligheten att driva tre restauranger i innlandet. Idag
+              har vi 19 restauranger i Sverige och 11 i Norge.
             </p>
           </motion.div>
         </div>
@@ -217,48 +239,9 @@ export default function Home() {
 
       {/* ---------------- Timeline ---------------- */}
       <Timeline />
+      <ValuesSection />
 
-      {/* ---------------- Team Philosophy ---------------- */}
-      <section className="mt-20">
-        <section className=" container-custom py-16 md:py-24 bg-[#FBF7F7]  ">
-          <div className=" max-w-7xl mx-auto  ">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-              <div>
-                <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold  mb-6">
-                  Vår filosofi
-                </h2>
-                <p className="text-gray-700 text-base sm:text-lg mb-4">
-                  På QSC tror vi på kraften i samarbete och innovation. Vår
-                  ledningsgrupp består av experter inom sina respektive områden,
-                  men vi arbetar alltid som ett team.
-                </p>
-                <p className="text-gray-700 text-base sm:text-lg mb-4">
-                  Vi uppmuntrar kreativitet, idéer och personligt ansvar,
-                  samtidigt som vi alltid håller fast vid våra kärnvärden
-                  Kvalitet, Service och Renlighet. Tillsammans skapar vi
-                  restaurangupplevelser som känns för gästen och medarbetaren.
-                </p>
-              </div>
-              <div className="bg-[#F9D00F]/20 p-8 rounded-lg">
-                <div className="flex items-center gap-4 mb-6">
-                  <div className="w-12 h-12 bg-[#F9D00F] rounded-full flex items-center justify-center">
-                    <Users className="text-black w-6 h-6" />
-                  </div>
-                  <h3 className="text-xl font-bold">
-                    Tillsammans gör vi skillnad
-                  </h3>
-                </div>
-                <p className="text-gray-700 text-base sm:text-lg mb-6">
-                  Vår styrka ligger i mångfalden av människor, perspektiv och
-                  erfarenheter. Genom att kombinera expertis från olika delar av
-                  restaurangvärlden skapar vi en unik helhet. Vi utvecklar vår
-                  service och vår arbetsmiljö för att överträffa förväntningar.
-                </p>
-              </div>
-            </div>
-          </div>
-        </section>
-      </section>
+      
 
       {/* ---------------- Scrolling Strip ---------------- */}
       <div className="relative w-full overflow-hidden mt-12">

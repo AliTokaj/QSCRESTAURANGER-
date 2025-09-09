@@ -20,14 +20,14 @@ const EmployeeCard: React.FC<EmployeeCardProps> = ({
       <Image
         src={imageSrc}
         alt={name}
-        width={120}
-        height={120}
+        width={150}
+        height={150}
         
        
       />
     </div>
     <div>
-      <p className="font-bold">{name}</p>
+      <p className="text-xl md:text-2xl font-display font-bold ">{name}</p>
       <p className="text-sm">{role}</p>
       <p className="text-sm italic mt-1">"{quote}"</p>
     </div>
@@ -39,10 +39,10 @@ const EmployeeSection = () => {
   return (  
    
     <div className="relative bg-[#ffbb0e] py-16 px-4 sm:px-6 text-black mt-20">
-      <h2 className="max-w-6xl mx-auto text-3xl  md:text-4xl font-bold mb-6 sm:mb-10 ">
+      <h2 className="max-w-6xl mx-auto text-3xl md:text-5xl font-display font-bold mb-4 md:mb-6 ">
         Några av våra medarbetare
       </h2>
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 mt-15">
       <div className=" grid grid-cols-1 gap-6 sm:grid-cols-2 sm:gap-8 ">
         <EmployeeCard
           name="Agnes"

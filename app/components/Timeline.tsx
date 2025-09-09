@@ -50,6 +50,12 @@ const MilestonesSection = () => {
       <div className="pointer-events-none absolute inset-0 z-0">
         <div className="absolute bottom-0 right-0 w-56 h-56 bg-[#FBF7F7]/60 rounded-full blur-2xl animate-pulse"></div>
         <div className="absolute top-1/2 left-1/2 w-32 h-32 bg-[#F0AE2C]/20 rounded-full blur-2xl -translate-x-1/2 -translate-y-1/2"></div>
+        <div className="absolute top-1/4 left-1/4 w-40 h-40 bg-[#F0AE2C]/30 rounded-full blur-3xl -translate-x-1/2 -translate-y-1/2 animate-pulse"></div>
+        <div className="absolute top-3/4 right-1/4 w-24 h-24 bg-[#F0AE2C]/40 rounded-full blur-3xl animate-pulse"></div>
+        <div className="absolute top-0 left-0 w-32 h-32 bg-[#F0AE2C]/20 rounded-full blur-2xl animate-pulse"></div>
+        <div className="absolute bottom-1/4 right-1/4 w-24 h-24 bg-[#F0AE2C]/30 rounded-full blur-3xl animate-pulse"></div>
+        <div className="absolute top-3/4 left-1/4 w-20 h-20 bg-[#FFFDD0]/40 rounded-full blur-3xl animate-pulse"></div>
+
       </div>
 
       {/* Heading */}

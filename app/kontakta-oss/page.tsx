@@ -1,6 +1,7 @@
 import React from 'react';
 import { MapPin } from 'lucide-react';
 import ContactForm from '../components/ContactForm'; // Import the Client Component
+import ValuesSection from '../components/ValuesSection';
 
 const Page = () => {
   return (
@@ -43,19 +44,7 @@ const Page = () => {
         </div>
       </section>
 
-      {/* Location Map */}
-      <div className="overflow-hidden h-96 shadow-md">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2038.3661102571405!2d16.53795887678519!3d59.60984877932493!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465e9fb85823cf11%3A0x1fb380d10df0fb84!2sStensborgsgatan%204%2C%20721%2032%20V%C3%A4ster%C3%A5s!5e0!3m2!1sen!2sse!4v1696422855779!5m2!1sen!2sse"
-          width="100%"
-          height="100%"
-          style={{ border: 0 }}
-          allowFullScreen
-          loading="lazy"
-          referrerPolicy="no-referrer-when-downgrade"
-          title="QSC Office Location"
-        ></iframe>
-      </div>
+    
     </div>
   );
 };

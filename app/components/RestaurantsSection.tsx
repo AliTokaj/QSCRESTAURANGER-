@@ -22,8 +22,8 @@ type RestaurantLocation = {
 };
 
 const center = {
-  lat: 59.3293,
-  lng: 18.0686,
+  lat: 64.79011893265042,
+  lng: 16.936433005607128,
 };
 
 const restaurantLocations: RestaurantLocation[] = [
@@ -154,6 +154,88 @@ const restaurantLocations: RestaurantLocation[] = [
     email: "028021770",
   },
 ];
+const restaurantLocationsN: RestaurantLocation[] = [
+  {
+    lat:68.43726333298451,
+    lng: 17.41858323099433,
+    name: "McDonald's Narvik",
+    description: "Bolagsgata 12, 8514 Narvik, Norway.",
+    email: "",
+  },
+   {
+    lat:69.64994474103973,
+    lng: 18.95584980218695,
+    name: "McDonald’s Tromsø",
+    description: "Storgata 70, 9008 Tromsø, Norway",
+    email: "+4740158786",
+  },
+   {
+    lat:60.794903527535254,
+    lng: 10.697699428848882,
+    name: "McDonald’s Gjøvik",
+    description: "Elvegata 6, 2815 Gjøvik, Norway",
+    email: "+4746986751",
+  },
+     {
+    lat:61.771444013119115,
+    lng: 9.542493442203806,
+    name: "McDonald’s Otta",
+    description: "McDonald's, Mullersgate 20, 2670 Otta, Norway",
+    email: "+4745853211",
+  },
+     {
+    lat:63.29782664811442,
+    lng: 9.834848326498136,
+    name: "McDonald’s Orkanger",
+    description: "Gjølmesøyvegen 4, 7300 Orkanger, Norway",
+    email: "+4745804018",
+  },
+       {
+    lat:63.43492765168486,
+    lng: 10.414326700000181,
+    name: "McDonald’s Solsiden",
+    description: "Beddingen 1, 7042 Trondheim, Norway",
+    email: "+4722343441",
+  },
+     {
+    lat:63.40141185750265,
+    lng: 10.403371557727992,
+    name: "McDonald’s Nidarvoll",
+    description: "Baard Iversens veg 2, 7037 Trondheim, Norway",
+    email: "+4722343441",
+  },
+   {
+    lat:63.359523254298125,
+    lng: 10.378015426630423,
+    name: "McDonald’s Tiller",
+    description: "Ivar Lykkes veg 2, 7075 Tiller, Norway",
+    email: "+4747516941",
+  },
+   {
+    lat:64.01191386154208,
+    lng: 11.49132000000211,
+    name: "McDonald’s Steinkjer",
+    description: "Sjøfartsgata 2, 7714 Steinkjer, Norway",
+    email: "+4747514943",
+  },
+     {
+    lat:63.43039978794012,
+    lng: 10.394007315420115,
+    name: "McDonald’s Trondheim",
+    description: "Kongens gate 9, 7013 Trondheim, Norway",
+    email: "+4722343441",
+  },
+       {
+    lat:67.27778755563644,
+    lng: 14.426463061997987,
+    name: "McDonald’s Bodø",
+    description: "McDonald's City Nord Bodø, Stormyrveien 20, 8008 Bodø, Norway",
+    email: "+4740858276",
+  },
+
+
+
+];
 
 // Map controller component to handle zoom and center changes
 const MapController = ({
@@ -165,7 +247,7 @@ const MapController = ({
 }) => {
   const map = useMap();
   const prevCenterRef = useRef(center);
-  const prevZoomRef = useRef(5);
+  const prevZoomRef = useRef(4);
 
   React.useEffect(() => {
     if (!map) return;
@@ -212,7 +294,7 @@ const RestaurantsMap: React.FC = () => {
       <div className="max-w-5xl mx-auto text-center">
         
       </div>
-      <div className="w-full mt-8 h-[500px]">
+      <div className="w-full mt-8 h-[400px]">
         <APIProvider apiKey={API}>
           <Map
             mapId={MapID}
@@ -230,8 +312,22 @@ const RestaurantsMap: React.FC = () => {
                 onClick={() => handleMarkerClick(location)}
               >
                 <Pin
+                  background={"#005583"}
+                  glyphColor={"#FFC200"}
+                  borderColor={"#005583"}
+                />
+              </AdvancedMarker>
+            ))}
+                {restaurantLocationsN.map((location, index) => (
+              <AdvancedMarker
+                key={index}
+                position={{ lat: location.lat, lng: location.lng }}
+                title={location.name}
+                onClick={() => handleMarkerClick(location)}
+              >
+                <Pin
                   background={"#DA291C"}
-                  glyphColor={"#FFC72C"}
+                  glyphColor={"#FFC200"}
                   borderColor={"#DA291C"}
                 />
               </AdvancedMarker>

@@ -4,13 +4,9 @@ import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { BriefcaseIcon, UserPlusIcon, CheckCircleIcon } from "lucide-react";
 import Image from "next/image";
-import RestaurantsSection from "../components/RestaurantsSection";
 import { AccordionDemo } from "../components/AccordionDemo";
-import dynamic from "next/dynamic";
 import EmployeeSection from "../components/EmployeeSection";
-const SwedenMap = dynamic(() => import("../components/SwedenMap"), {
-  ssr: false,
-});
+import HarFinnsVi from "../components/harFinnsVi";
 
 const JobbHosOss = () => {
   const [count, setCount] = useState(0);
@@ -80,21 +76,20 @@ const JobbHosOss = () => {
               </span>
             </motion.div>
           </div>
-          
         </div>
-       
       </section>
-      <div className=" w-1/2 right-0 absolute 
-        "> 
-          <Image
-              src="/Vector.svg"
-              alt="Wave divider"
-              width={400}
-              height={200}
-              className="w-full h-auto"
-          />
+      <div
+        className=" w-1/2 right-0 absolute 
+        "
+      >
+        <Image
+          src="/Vector.svg"
+          alt="Wave divider"
+          width={400}
+          height={200}
+          className="w-full h-auto"
+        />
       </div>
-      
 
       {/* Why Work With Us */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24">
@@ -107,7 +102,7 @@ const JobbHosOss = () => {
             className="text-center mb-12 md:mb-20"
           >
             <h2 className="text-3xl md:text-5xl font-display font-bold mb-4 md:mb-6">
-              Därför ska du jobba hos oss{" "}
+              Därför ska du jobba hos <span className="text-yellow-400">oss!</span>{" "}
             </h2>
             <p className="text-gray-700 text-lg sm:text-xl max-w-2xl mx-auto">
               Vi erbjuder mer än ett jobb – vi erbjuder en framtid att växa i!
@@ -162,32 +157,50 @@ const JobbHosOss = () => {
               </motion.div>
             ))}
           </div>
-
-          <motion.div
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6, delay: 0.3 }}
-            className="mt-12 md:mt-16 text-center"
-          >
-            <a
-              href="https://www.mcdonalds.com/se/sv-se/jobb.html"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block bg-[#F0AE2C] hover:bg-[#e6a526] text-black px-8 py-3 md:px-10 md:py-4 rounded-lg font-medium text-lg shadow-md hover:opacity-90 transition transform hover:scale-105"
-            >
-              Jobba hos McDonald's
-            </a>
-          </motion.div>
         </div>
       </section>
-
-    
-<EmployeeSection />
       
+     
+
+      {/* Karriär-tappan Image */}
+      <motion.div
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.6, delay: 0.4 }}
+        className="mt-8 md:mt-12 text-center"
+      >
+        <Image
+          src="/karriar-tappan.svg"
+          alt="Karriär Tappan"
+          width={1200}
+          height={300}
+          className="mx-auto w-full h-auto "
+        />
+      </motion.div>
+
+
+       <motion.div
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.6, delay: 0.3 }}
+        className="mt-8 md:mt-2 text-center"
+      >
+        <a
+          href="https://www.mcdonalds.com/se/sv-se/jobb/sok-jobb.html"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block bg-[#ffbd0b] hover:bg-[#e6a526] text-black px-8 py-3 md:px-10 md:py-4 rounded-lg font-medium text-lg shadow-md hover:opacity-90 transition transform hover:scale-105"
+        >
+          Jobba hos McDonald's
+        </a>
+      </motion.div>
+
+      <EmployeeSection />
 
       {/* FAQ Section */}
-      <section className="bg-[#FBF7F7] py-16 px-4 sm:px-6 ">
+      <section className=" py-16 px-4 sm:px-6 ">
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
