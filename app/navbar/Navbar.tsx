@@ -81,13 +81,14 @@ const Navbar: React.FC = () => {
           </a>
         </nav>
 
-        {/* Button (Desktop - lg breakpoint and above) */}
-        <a
-          href="/vara-medarbetare"
-          className="hidden lg:block bg-yellow-400 text-black px-5 py-2.5 rounded-md font-medium hover:bg-yellow-500 transition-colors duration-200 whitespace-nowrap"
-        >
-           Logga in{" "}
-        </a>
+     {/* Button (Desktop - lg breakpoint and above) */}
+<a
+  href="/vara-medarbetare"
+  className="hidden lg:inline-flex flex-col items-center justify-center bg-yellow-400 text-black px-5 py-2.5 rounded-md font-medium hover:bg-yellow-500 transition-colors duration-200 leading-tight"
+>
+  <span>Logga in</span>
+  <span className="text-xs font-normal">(anställda)</span>
+</a>
       </div>
 
       {/* Mobile & iPad Menu (Dropdown) */}
@@ -138,13 +139,14 @@ const Navbar: React.FC = () => {
               Kontakta oss
               <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-yellow-500 transition-all duration-300 group-hover:w-full"></span>
             </a>
-            <a
-              href="/vara-medarbetare"
-              className="bg-yellow-400 text-black px-4 py-3 rounded-md font-medium hover:bg-yellow-500 text-center transition-colors duration-200 mt-2"
-              onClick={closeMenu}
-            >
-              logga in
-            </a>
+          <a
+  href="/vara-medarbetare"
+  onClick={closeMenu}
+  className="bg-yellow-400 text-black px-4 py-3 rounded-md font-medium hover:bg-yellow-500 transition-colors duration-200 mt-2 flex flex-col items-center justify-center leading-tight text-center"
+>
+  <span>Logga in</span>
+  <span className="text-xs font-normal">(anställda)</span>
+</a>
           </nav>
         </div>
       )}

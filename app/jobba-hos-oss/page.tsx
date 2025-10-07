@@ -6,7 +6,8 @@ import { BriefcaseIcon, UserPlusIcon, CheckCircleIcon } from "lucide-react";
 import Image from "next/image";
 import { AccordionDemo } from "../components/AccordionDemo";
 import EmployeeSection from "../components/EmployeeSection";
-import HarFinnsVi from "../components/harFinnsVi";
+import CareerImageSection from "../components/CareerImageSection";
+
 
 const JobbHosOss = () => {
   const [count, setCount] = useState(0);
@@ -72,11 +73,29 @@ const JobbHosOss = () => {
             >
               {count}
               <span className="text-black text-lg font-extrabold ml-2">
-                anställda
+                anställda i Sverige 
               </span>
             </motion.div>
+            
           </div>
+          
         </div>
+             <motion.div
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.6, delay: 0.3 }}
+        className="mt-8 md:mt-2 text-center"
+      >
+        <a
+          href="https://www.mcdonalds.com/se/sv-se/jobb/sok-jobb.html"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block bg-[#ffbd0b] hover:bg-[#e6a526] text-black px-8 py-3 md:px-10 md:py-4 rounded-lg font-medium text-lg shadow-md hover:opacity-90 transition transform hover:scale-105"
+        >
+          Jobba hos McDonald's
+        </a>
+      </motion.div>
       </section>
       <div
         className=" w-1/2 right-0 absolute 
@@ -160,42 +179,12 @@ const JobbHosOss = () => {
         </div>
       </section>
       
-     
+     <CareerImageSection />
 
-      {/* Karriär-tappan Image */}
-      <motion.div
-        initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
-        viewport={{ once: true }}
-        transition={{ duration: 0.6, delay: 0.4 }}
-        className="mt-8 md:mt-12 text-center"
-      >
-        <Image
-          src="/karriar-tappan.svg"
-          alt="Karriär Tappan"
-          width={1200}
-          height={300}
-          className="mx-auto w-full h-auto "
-        />
-      </motion.div>
+  
 
 
-       <motion.div
-        initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
-        viewport={{ once: true }}
-        transition={{ duration: 0.6, delay: 0.3 }}
-        className="mt-8 md:mt-2 text-center"
-      >
-        <a
-          href="https://www.mcdonalds.com/se/sv-se/jobb/sok-jobb.html"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-block bg-[#ffbd0b] hover:bg-[#e6a526] text-black px-8 py-3 md:px-10 md:py-4 rounded-lg font-medium text-lg shadow-md hover:opacity-90 transition transform hover:scale-105"
-        >
-          Jobba hos McDonald's
-        </a>
-      </motion.div>
+  
 
       <EmployeeSection />
 

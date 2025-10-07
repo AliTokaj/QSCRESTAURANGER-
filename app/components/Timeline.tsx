@@ -37,9 +37,9 @@ const milestones = [
   },
   {
     year: "2025  ",
-    title: "2000 anställda och driver 30 restauranger ",
+    title: "2000 anställda och driver 33 restauranger ",
     description:
-      "QSC koncernen har nu ca 2000 anställda och driver 30 restauranger och fler öppningar är planerade.",
+      "QSC koncernen har nu ca 2000 anställda i Sverige och Norge, driver 30 restauranger och tree öppningar är planerade.",
   },
 ];
 
@@ -55,7 +55,6 @@ const MilestonesSection = () => {
         <div className="absolute top-0 left-0 w-32 h-32 bg-[#F0AE2C]/20 rounded-full blur-2xl animate-pulse"></div>
         <div className="absolute bottom-1/4 right-1/4 w-24 h-24 bg-[#F0AE2C]/30 rounded-full blur-3xl animate-pulse"></div>
         <div className="absolute top-3/4 left-1/4 w-20 h-20 bg-[#FFFDD0]/40 rounded-full blur-3xl animate-pulse"></div>
-
       </div>
 
       {/* Heading */}
@@ -98,8 +97,8 @@ const MilestonesSection = () => {
               viewport={{ once: true, margin: "-50px" }}
               transition={{ duration: 0.8, delay: index * 0.2 }}
             >
-              {/* Connector and dot */}
-              <div className="flex flex-col items-center sm:w-1/2 w-full">
+              {/* Connector and dot + year */}
+              <div className="flex items-center justify-center gap-2 sm:gap-0 sm:flex-col sm:w-1/2 w-full">
                 <motion.div
                   className="flex items-center justify-center"
                   initial={{ scale: 0 }}
@@ -112,7 +111,7 @@ const MilestonesSection = () => {
                   </div>
                 </motion.div>
                 <motion.span
-                  className="mt-2 text-[#F0AE2C] font-bold text-lg drop-shadow"
+                  className="text-[#F0AE2C] font-bold text-lg drop-shadow mt-0 sm:mt-2 ml-4 sm:ml-0 whitespace-nowrap"
                   initial={{ opacity: 0 }}
                   whileInView={{ opacity: 1 }}
                   viewport={{ once: true }}

@@ -60,7 +60,7 @@ const EmployerLogin: React.FC = () => {
             type="submit"
             className="w-full bg-[#F9D00F] text-black font-bold py-2 rounded-lg hover:opacity-90 transition"
           >
-            Logga in
+            Logga in 
           </button>
         </form>
       </div>

@@ -50,48 +50,8 @@ const TeamBios = () => {
             </div>
           </div>
         </div>
-        {/* Annika */}
+         {/*  Omar*/}
         <div className="flex flex-col md:flex-row-reverse items-center md:items-start md:space-x-reverse md:space-x-12">
-          <div className="flex-shrink-0">
-            <img
-              src="/Annika-y.png"
-              alt="Annika Östlund"
-              className="w-80 h-80 object-cover rounded-full"
-            />
-          </div>
-          <div className="mt-8 md:mt-0">
-            <h2 className="text-4xl font-extrabold leading-tight">
-              Annika <span className="text-yellow-400">Östlund</span>
-            </h2>
-            <p className="text-xl font-semibold mt-1">(Marknad)</p>
-            <p className="text-gray-800 mt-6 text-base leading-relaxed max-w-2xl">
-              Började 1994 när en utav mina kompisars bror jobbade som
-              restaurangchef på McDonalds Skrapan. Vi var 15 år och var lyckliga
-              över att kunna tjäna egna pengar. Under åren har jag haft olika
-              arbetsuppgifter och tjänster och idag jobbar jag bland annat med
-              med vår lokala marknadsföring.
-            </p>
-            <div className="mt-4 text-sm text-gray-700 leading-relaxed">
-              <p>
-                <strong>Jag beställer helst på McDonalds:</strong>
-                {" Alltid McFeast "}
-              </p>
-              <p>
-                <strong>Min favoritlåt:</strong>
-                {" Mariners Apartment Complex, Lana del Ray "}
-              </p>
-              <p>
-                <strong>Känt citat:</strong>
-                {
-                  "  Don’t speak negatively about yourself even as a joke, your body don’t know the difference - Bruce Lee "
-                }
-              </p>
-            </div>
-          </div>
-        </div>
-
-        {/*  Omar*/}
-        <div className="flex flex-col md:flex-row items-center md:items-start md:space-x-12">
           <div className="flex-shrink-0">
             <img
               src="/omar-y.jpg"
@@ -120,8 +80,151 @@ const TeamBios = () => {
             </div>
           </div>
         </div>
-        {/* Helene */}
+         {/* Aron */}
+        <div className="flex flex-col md:flex-row items-center md:items-start md:space-x-12">
+          <div className="flex-shrink-0">
+            <img
+              src="/aron-y.jpg"
+              alt="Aron Yohannes"
+              className="w-80 h-80 object-cover rounded-full"
+            />
+          </div>
+          <div className="mt-8 md:mt-0">
+            <h2 className="text-4xl font-extrabold leading-tight">
+              <span className="text-yellow-400">Aron</span>Yohannes
+            </h2>
+            <p className="text-xl font-semibold mt-1">(Supervisor)</p>
+            <p className="text-gray-800 mt-6 text-base leading-relaxed max-w-2xl">
+              Jag började min McDonald’s-karriär redan som 16-åring. Genom åren
+              har jag arbetat mig igenom samtliga positioner i restaurangen,
+              vilket har gett mig en djup förståelse för både drift och
+              ledarskap. Idag arbetar jag som supervisor för våra restauranger i
+              Uppsala och Norrland. Jag brinner för att utveckla våra
+              fantastiska medarbetare. Att få vara med och se individer växa, ta
+              nya steg i sin karriär och nå sin fulla potential är något jag
+              värdesätter högt och som ger mitt arbete verklig mening.
+            </p>
+            <div className="mt-4 text-sm text-gray-700 leading-relaxed">
+              <p>
+                <strong>Jag beställer helst på McDonalds:</strong>{" "}
+              </p>
+              <p>
+                <strong>Min favoritlåt:</strong>{" "}
+              </p>
+              <p>
+                <strong>Känt cita:</strong>{" "}
+              </p>
+            </div>
+          </div>
+        </div>
+          {/* Amjd (Amjad) */}
         <div className="flex flex-col md:flex-row-reverse items-center md:items-start md:space-x-reverse md:space-x-12">
+          <div className="flex-shrink-0">
+            <img
+              src="/amjd-y.png"
+              alt="Amjd (Amjad) Kryem"
+              className="w-80 h-80 object-cover rounded-full"
+            />
+          </div>
+          <div className="mt-8 md:mt-0">
+            <h2 className="text-4xl font-extrabold leading-tight">
+              Amjd  <span className="text-yellow-400">Kryem</span>
+            </h2>
+            <p className="text-xl font-semibold mt-1">(Supervisor)</p>
+            <p className="text-gray-800 mt-6 text-base leading-relaxed max-w-2xl">
+             Jag började jobba på McDonald’s i april 2017, samtidigt som jag gick på gymnasiet. Det som först var ett extrajobb blev snabbt något jag ville satsa mer på. Efter studenten kändes det helt naturligt att ta ett sabbatsår för att kunna utvecklas och lära mig så mycket som möjligt inom McDonald’s.
+
+Idag har jag arbetat som Supervisor i fem år och fått möjligheten att samarbeta med många olika restauranger runt om i landet. Under resan har jag verkligen upptäckt vad jag brinner för – IT, matsäkerhet och framförallt människor och relationer. Det är otroligt givande att få vara med och bidra, utveckla andra och själv växa längs vägen.
+            </p>
+            <div className="mt-4 text-sm text-gray-700 leading-relaxed">
+              <p>
+                <strong>Jag beställer helst på McDonalds:</strong>{" "}
+              </p>
+              <p>
+                <strong>Min favoritlåt:</strong>{" "}
+              </p>
+              <p>
+                <strong>Min favoritlåt:</strong>{" "}
+              </p>
+            </div>
+          </div>
+        </div>
+         {/* Tamara */}
+        <div className="flex flex-col md:flex-row items-center md:items-start md:space-x-12">
+          <div className="flex-shrink-0">
+            <img
+              src="/tamara-y.jpg"
+              alt="Tamara Prokic"
+              className="w-80 h-80 object-cover rounded-full"
+            />
+          </div>
+          <div className="mt-8 md:mt-0">
+            <h2 className="text-4xl font-extrabold leading-tight">
+              <span className="text-yellow-400">Tamara</span> Prokic
+            </h2>
+            <p className="text-xl font-semibold mt-1">(Supervisor)</p>
+            <p className="text-gray-800 mt-6 text-base leading-relaxed max-w-2xl">
+              Börjat 2018 inom QSC, jobbat på en av våra restauranger i Västerås
+              sedan dess. Jag har jobbat som medarbetare, skiftledare, assistent
+              och restaurangchef på just det restaurangen och nu jobbar jag i
+              Västerås med alla våra fyra restauranger vi har där. Det är en
+              spännande och lärorik resa och jag har växt som person under min
+              tid inom QSC{" "}
+            </p>
+            <div className="mt-4 text-sm text-gray-700 leading-relaxed">
+              <p>
+                <strong>Jag beställer helst på McDonalds:</strong>
+                {" Filet-o-fish "}
+              </p>
+              <p>
+                <strong>Min favoritlåt:</strong>
+                {" The Cranberries- Zombie "}
+              </p>
+              <p>
+                <strong> Känt citat:</strong>
+                {" Because i carry it well doesnt mean its not heavy "}
+              </p>
+            </div>
+          </div>
+        </div>
+         {/* Max */}
+        <div className="flex flex-col md:flex-row-reverse items-center md:items-start md:space-x-reverse md:space-x-12">
+          <div className="flex-shrink-0">
+            <img
+              src="/max-y.png"
+              alt="Max Lindberg"
+              className="w-80 h-80 object-cover rounded-full"
+            />
+          </div>
+          <div className="mt-8 md:mt-0">
+            <h2 className="text-4xl font-extrabold leading-tight">
+              Max <span className="text-yellow-400">Lindberg</span>
+            </h2>
+            <p className="text-xl font-semibold mt-1">(Supervisor)</p>
+            <p className="text-gray-800 mt-6 text-base leading-relaxed max-w-2xl">
+              Tillsammans med mina kollegor och restaurangchefer är jag med och
+              stöttar det dagliga arbetet. Jag brinner för att bidra till ett
+              starkt team, god kvalitet och en positiv upplevelse, både för
+              gäster och medarbetare.
+            </p>
+            <div className="mt-4 text-sm text-gray-700 leading-relaxed">
+              <p>
+                <strong>Jag beställer helst på McDonalds:</strong>
+                {" QP Meny, pommes, cola zero utan IS, Bea dipp 🙂"}
+              </p>
+              <p>
+                <strong>Min favoritlåt:</strong>
+                {" Walking in Memphis - Calle Kristiansson"}
+              </p>
+              <p>
+                <strong>Känt citat:</strong>
+                {" Det löser sig!"}
+              </p>
+            </div>
+          </div>
+        </div>
+         {/* Helene */}
+        <div className="flex flex-col md:flex-row items-center md:items-start md:space-x-12">
           <div className="flex-shrink-0">
             <img
               src="/helene-y.png"
@@ -160,160 +263,8 @@ const TeamBios = () => {
             </div>
           </div>
         </div>
-
-        {/* Aron */}
-        <div className="flex flex-col md:flex-row items-center md:items-start md:space-x-12">
-          <div className="flex-shrink-0">
-            <img
-              src="/aron-y.jpg"
-              alt="Aron Yohannes"
-              className="w-80 h-80 object-cover rounded-full"
-            />
-          </div>
-          <div className="mt-8 md:mt-0">
-            <h2 className="text-4xl font-extrabold leading-tight">
-              <span className="text-yellow-400">Aron</span>Yohannes
-            </h2>
-            <p className="text-xl font-semibold mt-1">(Supervisor)</p>
-            <p className="text-gray-800 mt-6 text-base leading-relaxed max-w-2xl">
-              Jag började min McDonald’s-karriär redan som 16-åring. Genom åren
-              har jag arbetat mig igenom samtliga positioner i restaurangen,
-              vilket har gett mig en djup förståelse för både drift och
-              ledarskap. Idag arbetar jag som supervisor för våra restauranger i
-              Uppsala och Norrland. Jag brinner för att utveckla våra
-              fantastiska medarbetare. Att få vara med och se individer växa, ta
-              nya steg i sin karriär och nå sin fulla potential är något jag
-              värdesätter högt och som ger mitt arbete verklig mening.
-            </p>
-            <div className="mt-4 text-sm text-gray-700 leading-relaxed">
-              <p>
-                <strong>Jag beställer helst på McDonalds:</strong>{" "}
-              </p>
-              <p>
-                <strong>Min favoritlåt:</strong>{" "}
-              </p>
-              <p>
-                <strong>Känt cita:</strong>{" "}
-              </p>
-            </div>
-          </div>
-        </div>
-
-        {/* Amjd (Amjad) */}
+         {/* Ida */}
         <div className="flex flex-col md:flex-row-reverse items-center md:items-start md:space-x-reverse md:space-x-12">
-          <div className="flex-shrink-0">
-            <img
-              src="/amjd-y.png"
-              alt="Amjd (Amjad) Kryem"
-              className="w-80 h-80 object-cover rounded-full"
-            />
-          </div>
-          <div className="mt-8 md:mt-0">
-            <h2 className="text-4xl font-extrabold leading-tight">
-              Amjd (Amjad) <span className="text-yellow-400">Kryem</span>
-            </h2>
-            <p className="text-xl font-semibold mt-1">(Supervisor)</p>
-            <p className="text-gray-800 mt-6 text-base leading-relaxed max-w-2xl">
-              Jag började på McDonald’s som 18-åring och har sedan dess haft
-              roller som medarbetare, restaurangchef och supervisor i flera
-              städer. McDonald’s har gett mig unika möjligheter att växa som
-              ledare och person. Idag jobbar jag med fokus på matsäkerhet,
-              personalutveckling och att varje dag skapa en trygg, effektiv och
-              inspirerande arbetsmiljö. För mig handlar ledarskap om att
-              utveckla människor och leverera kvalitet varje dag.
-            </p>
-            <div className="mt-4 text-sm text-gray-700 leading-relaxed">
-              <p>
-                <strong>Jag beställer helst på McDonalds:</strong>{" "}
-              </p>
-              <p>
-                <strong>Min favoritlåt:</strong>{" "}
-              </p>
-              <p>
-                <strong>Min favoritlåt:</strong>{" "}
-              </p>
-            </div>
-          </div>
-        </div>
-
-        {/* Tamara */}
-        <div className="flex flex-col md:flex-row items-center md:items-start md:space-x-12">
-          <div className="flex-shrink-0">
-            <img
-              src="/tamara-y.jpg"
-              alt="Tamara Prokic"
-              className="w-80 h-80 object-cover rounded-full"
-            />
-          </div>
-          <div className="mt-8 md:mt-0">
-            <h2 className="text-4xl font-extrabold leading-tight">
-              <span className="text-yellow-400">Tamara</span> Prokic
-            </h2>
-            <p className="text-xl font-semibold mt-1">(Supervisor)</p>
-            <p className="text-gray-800 mt-6 text-base leading-relaxed max-w-2xl">
-              Börjat 2018 inom QSC, jobbat på en av våra restauranger i Västerås
-              sedan dess. Jag har jobbat som medarbetare, skiftledare, assistent
-              och restaurangchef på just det restaurangen och nu jobbar jag i
-              Västerås med alla våra fyra restauranger vi har där. Det är en
-              spännande och lärorik resa och jag har växt som person under min
-              tid inom QSC{" "}
-            </p>
-            <div className="mt-4 text-sm text-gray-700 leading-relaxed">
-              <p>
-                <strong>Jag beställer helst på McDonalds:</strong>
-                {" Filet-o-fish "}
-              </p>
-              <p>
-                <strong>Min favoritlåt:</strong>
-                {" The Cranberries- Zombie "}
-              </p>
-              <p>
-                <strong> Känt citat:</strong>
-                {" Because i carry it well doesnt mean its not heavy "}
-              </p>
-            </div>
-          </div>
-        </div>
-
-        {/* Max */}
-        <div className="flex flex-col md:flex-row-reverse items-center md:items-start md:space-x-reverse md:space-x-12">
-          <div className="flex-shrink-0">
-            <img
-              src="/max-y.png"
-              alt="Max Lindberg"
-              className="w-80 h-80 object-cover rounded-full"
-            />
-          </div>
-          <div className="mt-8 md:mt-0">
-            <h2 className="text-4xl font-extrabold leading-tight">
-              Max <span className="text-yellow-400">Lindberg</span>
-            </h2>
-            <p className="text-xl font-semibold mt-1">(Supervisor)</p>
-            <p className="text-gray-800 mt-6 text-base leading-relaxed max-w-2xl">
-              Tillsammans med mina kollegor och restaurangchefer är jag med och
-              stöttar det dagliga arbetet. Jag brinner för att bidra till ett
-              starkt team, god kvalitet och en positiv upplevelse, både för
-              gäster och medarbetare.
-            </p>
-            <div className="mt-4 text-sm text-gray-700 leading-relaxed">
-              <p>
-                <strong>Jag beställer helst på McDonalds:</strong>
-                {" QP Meny, pommes, cola zero utan IS, Bea dipp 🙂"}
-              </p>
-              <p>
-                <strong>Min favoritlåt:</strong>
-                {" Walking in Memphis - Calle Kristiansson"}
-              </p>
-              <p>
-                <strong>Känt citat:</strong>
-                {" Det löser sig!"}
-              </p>
-            </div>
-          </div>
-        </div>
-
-        {/* Ida */}
-        <div className="flex flex-col md:flex-row items-center md:items-start md:space-x-12">
           <div className="flex-shrink-0">
             <img
               src="/ida-y.png"
@@ -355,9 +306,9 @@ const TeamBios = () => {
             </div>
           </div>
         </div>
-
+        
         {/* Felicia */}
-        <div className="flex flex-col md:flex-row-reverse items-center md:items-start md:space-x-reverse md:space-x-12">
+        <div className="flex flex-col md:flex-row items-center md:items-start md:space-x-12">
           <div className="flex-shrink-0">
             <img
               src="/felicia-y.png"
@@ -391,7 +342,54 @@ const TeamBios = () => {
           </div>
         </div>
 
-        {/* Ida */}
+        {/* Annika */}
+        <div className="flex flex-col md:flex-row-reverse items-center md:items-start md:space-x-reverse md:space-x-12">
+          <div className="flex-shrink-0">
+            <img
+              src="/Annika-y.png"
+              alt="Annika Östlund"
+              className="w-80 h-80 object-cover rounded-full"
+            />
+          </div>
+          <div className="mt-8 md:mt-0">
+            <h2 className="text-4xl font-extrabold leading-tight">
+              Annika <span className="text-yellow-400">Östlund</span>
+            </h2>
+            <p className="text-xl font-semibold mt-1">(Marknad)</p>
+            <p className="text-gray-800 mt-6 text-base leading-relaxed max-w-2xl">
+              Började 1994 när en utav mina kompisars bror jobbade som
+              restaurangchef på McDonalds Skrapan. Vi var 15 år och var lyckliga
+              över att kunna tjäna egna pengar. Under åren har jag haft olika
+              arbetsuppgifter och tjänster och idag jobbar jag bland annat med
+              med vår lokala marknadsföring.
+            </p>
+            <div className="mt-4 text-sm text-gray-700 leading-relaxed">
+              <p>
+                <strong>Jag beställer helst på McDonalds:</strong>
+                {" Alltid McFeast "}
+              </p>
+              <p>
+                <strong>Min favoritlåt:</strong>
+                {" Mariners Apartment Complex, Lana del Ray "}
+              </p>
+              <p>
+                <strong>Känt citat:</strong>
+                {
+                  "  Don’t speak negatively about yourself even as a joke, your body don’t know the difference - Bruce Lee "
+                }
+              </p>
+            </div>
+          </div>
+        </div>
+
+       
+       
+
+       
+      
+
+
+        {/* Yousef */}
         <div className="flex flex-col md:flex-row items-center md:items-start md:space-x-12">
           <div className="flex-shrink-0">
             <img
@@ -404,7 +402,7 @@ const TeamBios = () => {
             <h2 className="text-4xl font-extrabold leading-tight">
               <span className="text-yellow-400">Yousef </span> Faraj
             </h2>
-            <p className="text-xl font-semibold mt-1">(HR-assistent)</p>
+            <p className="text-xl font-semibold mt-1">(Underhållsansvarig)</p>
             <p className="text-gray-800 mt-6 text-base leading-relaxed max-w-2xl">
               När jag var 18 år började jag på McDonalds i Örebro. Jag jobbade
               mest helger och även extra under tiden jag gick i nian på

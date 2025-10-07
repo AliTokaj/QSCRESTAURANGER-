@@ -12,7 +12,7 @@ const Footer = () => {
           <div className="md:col-span-4">
            
           <img
-  src="/sverige-norge.svg"
+  src="/qscWhite.svg"
   alt="Sverige Norge karta"
   className="mb-6 md:w-3/4 w-full h-auto"
 />

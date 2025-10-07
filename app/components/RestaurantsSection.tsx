@@ -153,6 +153,20 @@ const restaurantLocations: RestaurantLocation[] = [
     description: "Lindvallen, 780 91 Sälen",
     email: "028021770",
   },
+    {
+    lat: 67.84830131350667,
+    lng: 20.280394337771668,
+    name: "McDonald's Kiruna ",
+    description: "Malmvägen, 981 30 Kiruna",
+    email: "",
+  },
+      {
+    lat: 59.84726279199007,
+    lng: 17.685467278344237,
+    name: "McDonald's Boländera ",
+    description: "Stångjärnsgatan 10, 753 23 Uppsala",
+    email: "",
+  },
 ];
 const restaurantLocationsN: RestaurantLocation[] = [
   {

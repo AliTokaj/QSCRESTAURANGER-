@@ -231,7 +231,7 @@ export default function Home() {
               restaurangerna Hälla och Stenby i Västerås. 2016/2017 blev jag
               kontaktad av norska McDonald's som behövde franchisetagare och då
               fick jag möjligheten att driva tre restauranger i innlandet. Idag
-              har vi 19 restauranger i Sverige och 11 i Norge.
+              har vi 21 restauranger i Sverige och 12 i Norge.
             </p>
           </motion.div>
         </div>
