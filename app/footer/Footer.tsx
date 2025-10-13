@@ -18,8 +18,8 @@ const Footer = () => {
 />
             <div className="flex space-x-4">
               
-              <a href="#" className="text-white/70 hover:text-yellow-500 transition-colors duration-300">
-                <Linkedin size={20} />
+              <a href="https://www.linkedin.com/company/qsc-restauranger-ab" className="text-white/70 hover:text-yellow-500 transition-colors duration-300">
+                <Linkedin size={40} />
               </a>
             </div>
           </div>
