@@ -65,17 +65,21 @@ const TeamBios = () => {
             </h2>
             <p className="text-xl font-semibold mt-1">(Driftchef)</p>
             <p className="text-gray-800 mt-6 text-base leading-relaxed max-w-2xl">
-              Kort infromation om den personal och sin resa i QSC
+           Sedan 2015 har jag haft en utvecklande resa inom McDonald’s och QSC från en produktions medarbetare till min nuvarande roll som Operations Manager.
+
+Jag ansvarar för driften av våra 20 restauranger och arbetar med både operativ och strategisk utveckling. Mitt fokus ligger på att optimera verksamheten, utveckla våra ledare och säkerställa högsta kvalitet i service och drift.
+
+Under åren har jag varit delaktig i flera nyöppningar, ombyggnationer och implementeringen av McCafé konceptet på flera restauranger. Jag drivs av att skapa framgångsrika team och bidra till en positiv upplevelse för både gäster och medarbetare.
             </p>
             <div className="mt-4 text-sm text-gray-700 leading-relaxed">
               <p>
-                <strong>Jag beställer helst på McDonalds:</strong>{" "}
+                <strong>Jag beställer helst på McDonalds:</strong>{" Truffles & Onions, bonaqua naturell och dubbel espresso."}
               </p>
               <p>
                 <strong>Min favoritlåt:</strong>{" "}
               </p>
               <p>
-                <strong>Känt cita:</strong>{" "}
+                <strong>Känt cita:</strong>{"Det kanske inte är vårt fel, men det är vårt ansvar att lösa det "}
               </p>
             </div>
           </div>
@@ -106,13 +110,13 @@ const TeamBios = () => {
             </p>
             <div className="mt-4 text-sm text-gray-700 leading-relaxed">
               <p>
-                <strong>Jag beställer helst på McDonalds:</strong>{" "}
+                <strong>Jag beställer helst på McDonalds: </strong>{" Dubbel cheese och cola zero"}
               </p>
               <p>
                 <strong>Min favoritlåt:</strong>{" "}
               </p>
               <p>
-                <strong>Känt cita:</strong>{" "}
+                <strong>Känt cita: </strong>{"Det spelar ingen roll hur långsamt du går så länge du inte stannar. "}
               </p>
             </div>
           </div>

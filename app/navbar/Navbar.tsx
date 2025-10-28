@@ -61,7 +61,7 @@ const Navbar: React.FC = () => {
             <span className="absolute left-1/2 bottom-0 w-0 h-[2px] bg-yellow-500 transition-all duration-300 group-hover:w-full group-hover:left-0"></span>
           </a>
           <a href="/ledningsgrupp" className="relative group px-2 py-1">
-            Ledningsgrupp
+            Ledningsgruppen
             <span className="absolute left-1/2 bottom-0 w-0 h-[2px] bg-yellow-500 transition-all duration-300 group-hover:w-full group-hover:left-0"></span>
           </a>
           <a href="/om-oss" className="relative group px-2 py-1">
@@ -112,7 +112,7 @@ const Navbar: React.FC = () => {
               className="relative group py-2"
               onClick={closeMenu}
             >
-              Ledningsgrupp
+              Ledningsgruppen
               <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-yellow-500 transition-all duration-300 group-hover:w-full"></span>
             </a>
             <a

@@ -14,17 +14,9 @@ const EmployeeCard: React.FC<EmployeeCardProps> = ({
   quote,
   imageSrc,
 }) => (
-  
   <div className=" flex items-center space-x-4 max-w-sm w-full sm:w-auto ">
     <div className=" rounded-full overflow-hidden border-2 border-white flex-shrink-0">
-      <Image
-        src={imageSrc}
-        alt={name}
-        width={150}
-        height={150}
-        
-       
-      />
+      <Image src={imageSrc} alt={name} width={150} height={150} />
     </div>
     <div>
       <p className="text-xl md:text-2xl font-display font-bold ">{name}</p>
@@ -32,48 +24,84 @@ const EmployeeCard: React.FC<EmployeeCardProps> = ({
       <p className="text-sm italic mt-1">"{quote}"</p>
     </div>
   </div>
-  
 );
 
 const EmployeeSection = () => {
-  return (  
-   
+  return (
     <div className="relative bg-[#ffbb0e] py-16 px-4 sm:px-6 text-black mt-20">
       <h2 className="max-w-6xl mx-auto text-3xl md:text-5xl font-display font-bold mb-4 md:mb-6 ">
         Några av våra medarbetare
       </h2>
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 mt-15">
-      <div className=" grid grid-cols-1 gap-6 sm:grid-cols-2 sm:gap-8 ">
-        <EmployeeCard
-          name="Agnes"
-          role="Skiftledare"
-          quote="Det roligaste med att jobba på McDonald's är de utmaningar man ställs inför. Det är det som gör att man utvecklas."
-          imageSrc="/agnes.jpeg" 
-        />
-        <EmployeeCard
-          name="Mustafa"
-          role="Restaurangchef"
-          quote="Det bästa med att vara restaurangchef på McDonald's är att se mina medarbetare växa och ta nästa steg i sin karriär."
-          imageSrc="/mustafa.jpg"
-        />
+        <div className=" grid grid-cols-1 gap-6 sm:grid-cols-2 sm:gap-8 ">
+          <EmployeeCard
+            name="Stella "
+            role="Guest Experience Leader "
+            quote="Roligast med att vara GEL: Allt, men att träffa olika människor och att göra det lilla extra för att göra deras dag bättre. Jag ville bli GEL för att det verkade roligt, utvecklande och jag ville bidra för att skapa en bättre gästupplevelse."
+            imageSrc="/Stella.png"
+          />
+          <EmployeeCard
+            name="Mustafa"
+            role="Restaurangchef"
+            quote="Det roligaste med jobbet är miljön och alla fantastiska kollegor – vi har en riktig familjekänsla här. Det gör att varje dag blir både rolig och motiverande.
+
+Det lockade mig till att göra karriär på McDonald’s är att jag gillar att utmana mig själv och prova nya saker. I RC rollen får jag hela tiden utvecklas och testa mycket nytt, vilket gör jobbet extra spännande."
+            imageSrc="/mustafa.jpg"
+          />
+          
+              <EmployeeCard
+            name="Linnéa "
+            role="Restaurangchef"
+            quote="Det roligaste med mitt jobb är att jag får möjligheten att skapa en arbetsplats där medarbetarna trivs, tycker att det är roligt att komma till jobbet och att de vill stanna och utvecklas. Jag tycker det är väldigt givande att kunna erbjuda utvecklingsmöjligheter till alla och se dem ta mer ansvar och växa i sina roller.
+
+Det som fick mig att vilja bli restaurangchef var att jag tidigare arbetade med HR och rekrytering inom organisationen. Jag var med och anställde samt utbildade alla nya medarbetare till nya Marieberg, och det var så roligt att få följa deras utveckling. Det inspirerade mig till att vilja bli restaurangchef, för att kunna fortsätta med just det – att se människor växa och utvecklas."
+            imageSrc="/linnea.png"
+          />
+              <EmployeeCard
+            name="Erik  "
+            role="Skiftledare"
+            quote="Jag älskar att jobba som Skiftledare på McDonalds. Mitt jobb ger mig utbildnings och utvecklingsmöjligheter för både mig själv och mina kollegor. Att ha ansvar över ett skift och påverka både driften och medarbetarnas utveckling är någonting jag verkligen brinner för!
+"
+            imageSrc="/Erik.png"
+          />
+         <EmployeeCard
+            name="Cassandra   "
+            role="Barista ledare"
+            quote="Som Barista ledare har jag haft många minnesvärda stunder i McCaféet. Men det bästa jag vet med att vara Barista ledare är utbildningarna jag håller i för nya Baristor. Det är härligt att se nyfikenheten hos andra byggas upp till kunskap och egna erfarenheter. 
+Jag hittade samma nyfikenhet och kunskap igenom min egna utbildning för ett par år sedan som fick mig att inse hur mycket jag älskar Mccafé delen i mitt jobb. Därför valde jag att försöka utveckla min kunskap vidare för att kunna leverera en bättre Mccafé upplevelse för både gäster och medarbetare. 
+"
+            imageSrc="/Cassandra.png"
+          />
+            <EmployeeCard
+            name="Alice   "
+            role="Första assistent"
+            quote="Det bästa med att vara första assistent är att få se hur vårt team växer varje dag, och hur mycket starkare vi kan vara tillsammans. Jag älskar att lära andra nya saker, och jag lär mig själv massor av nya saker varje dag, vilket gör att jag utvecklas som person.
+
+Det som fick mig att vilja bli första assistent är flera anledningar. Men jag tror att de största anledningarna är att jag vill vara med och påverka och utveckla restaurangen framåt. Dessutom har jag alltid sett upp till mina chefer och nu vill jag bli som dem, en ledare som andra kan se upp till.
+"
+            imageSrc="/Alice.png"
+          />
+             <EmployeeCard
+            name="Emmie   "
+            role="Handledare "
+            quote="Det bästa med att jobba på McDonald’s enligt mig är gemenskapen man får med kollegorna, att få leverera god mat som uppskattas av gästerna och se de nöjda. Jag uppskattar att jag fått möjligheter att utvecklas och ser fram emot att ta mig an rollen som handledare. Som handledare är det så roligt att se utvecklingen hos de nyanställda och få chansen att både hjälpa och stötta dem längst vägen.
+"
+            imageSrc="/Emmie.png"
+          />
         
+        </div>
       </div>
+      {/* Wave at the bottom */}
+      <div className="absolute bottom-0 right-0 translate-y-full w-full sm:w-1/2 md:w-1/2">
+        <Image
+          src="/Vector.svg"
+          alt="Wave divider"
+          width={400}
+          height={200}
+          className="w-full h-auto"
+        />
       </div>
-    {/* Wave at the bottom */}
-<div className="absolute bottom-0 right-0 translate-y-full w-full sm:w-1/2 md:w-1/2"> 
-    <Image
-        src="/Vector.svg"
-        alt="Wave divider"
-        width={400}
-        height={200}
-        className="w-full h-auto"
-    />
-</div>
-      
     </div>
-
-
-   
   );
 };
 
