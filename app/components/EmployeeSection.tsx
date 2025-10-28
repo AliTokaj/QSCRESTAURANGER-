@@ -55,7 +55,7 @@ Det lockade mig till att göra karriär på McDonald’s är att jag gillar att 
             quote="Det roligaste med mitt jobb är att jag får möjligheten att skapa en arbetsplats där medarbetarna trivs, tycker att det är roligt att komma till jobbet och att de vill stanna och utvecklas. Jag tycker det är väldigt givande att kunna erbjuda utvecklingsmöjligheter till alla och se dem ta mer ansvar och växa i sina roller.
 
 Det som fick mig att vilja bli restaurangchef var att jag tidigare arbetade med HR och rekrytering inom organisationen. Jag var med och anställde samt utbildade alla nya medarbetare till nya Marieberg, och det var så roligt att få följa deras utveckling. Det inspirerade mig till att vilja bli restaurangchef, för att kunna fortsätta med just det – att se människor växa och utvecklas."
-            imageSrc="/linnea.png"
+            imageSrc="/lin.png"
           />
               <EmployeeCard
             name="Erik  "
