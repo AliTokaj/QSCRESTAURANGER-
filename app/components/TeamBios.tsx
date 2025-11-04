@@ -113,7 +113,7 @@ Under åren har jag varit delaktig i flera nyöppningar, ombyggnationer och impl
                 <strong>Jag beställer helst på McDonalds: </strong>{" Dubbel cheese och cola zero"}
               </p>
               <p>
-                <strong>Min favoritlåt:</strong>{" "}
+                <strong>Min favoritlåt:</strong>{" “Happy” – Pharrell Williams som favorit låt på mig"}
               </p>
               <p>
                 <strong>Känt cita: </strong>{"Det spelar ingen roll hur långsamt du går så länge du inte stannar. "}
@@ -157,7 +157,7 @@ Idag har jag arbetat som Supervisor i fem år och fått möjligheten att samarbe
         <div className="flex flex-col md:flex-row items-center md:items-start md:space-x-12">
           <div className="flex-shrink-0">
             <img
-              src="/tamara-y.jpg"
+              src="/tamara.png"
               alt="Tamara Prokic"
               className="w-80 h-80 object-cover rounded-full"
             />

@@ -88,6 +88,21 @@ Det som fick mig att vilja bli första assistent är flera anledningar. Men jag 
 "
             imageSrc="/Emmie.png"
           />
+            <EmployeeCard
+            name="Monir    "
+            role="Andra assistent"
+            quote="Det bästa med mitt jobb är att jag får möta och samarbeta med så många olika människor. Varje dag bjuder på nya möten, erfarenheter och möjligheter att utvecklas – både som person och i min roll.
+
+Anledningen till att jag sökte mig till min nuvarande roll var viljan att ta mer ansvar och att ständigt utmana mig själv. Det jag uppskattar allra mest är att få vara med och utbilda nya kollegor och välkomna dem till vårt team.
+"
+            imageSrc="/Monir.png"
+          />
+              <EmployeeCard
+            name="Thi Chau Nguyen "
+            role="Supervisor trainee"
+            quote=""
+            imageSrc="/Thi.png"
+          />
         
         </div>
       </div>
