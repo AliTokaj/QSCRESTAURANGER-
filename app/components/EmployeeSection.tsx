@@ -60,7 +60,7 @@ Det som fick mig att vilja bli restaurangchef var att jag tidigare arbetade med 
               <EmployeeCard
             name="Erik  "
             role="Skiftledare"
-            quote="Jag älskar att jobba som Skiftledare på McDonalds. Mitt jobb ger mig utbildnings och utvecklingsmöjligheter för både mig själv och mina kollegor. Att ha ansvar över ett skift och påverka både driften och medarbetarnas utveckling är någonting jag verkligen brinner för!
+            quote="Jag älskar att jobba som Skiftledare på  McDonald’s. Mitt jobb ger mig utbildnings och utvecklingsmöjligheter för både mig själv och mina kollegor. Att ha ansvar över ett skift och påverka både driften och medarbetarnas utveckling är någonting jag verkligen brinner för!
 "
             imageSrc="/Erik.png"
           />
@@ -97,12 +97,7 @@ Anledningen till att jag sökte mig till min nuvarande roll var viljan att ta me
 "
             imageSrc="/Monir.png"
           />
-              <EmployeeCard
-            name="Thi Chau Nguyen "
-            role="Supervisor trainee"
-            quote=""
-            imageSrc="/Thi.png"
-          />
+           
         
         </div>
       </div>
@@ -114,6 +109,7 @@ Anledningen till att jag sökte mig till min nuvarande roll var viljan att ta me
           width={400}
           height={200}
           className="w-full h-auto"
+          unoptimized
         />
       </div>
     </div>
