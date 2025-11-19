@@ -34,7 +34,7 @@ const TeamBios = () => {
             </p>
             <div className="mt-4 text-sm text-gray-700 leading-relaxed">
               <p>
-                <strong>Jag beställer helst på McDonalds:</strong>
+                <strong>Jag beställer helst på McDonald's:</strong>
                 {" Dubbel hamburgare endast sallad och tomat 🙄 "}
               </p>
               <p>
@@ -42,7 +42,7 @@ const TeamBios = () => {
                 {"  Have you ever seen the rain, Credence Clearwater Revival"}
               </p>
               <p>
-                <strong>Känt cita:</strong>
+                <strong>Känt citat:</strong>
                 {
                   "  Du måste jobba med dom jordgubbar du har – Petter Stordalen"
                 }
@@ -73,13 +73,13 @@ Under åren har jag varit delaktig i flera nyöppningar, ombyggnationer och impl
             </p>
             <div className="mt-4 text-sm text-gray-700 leading-relaxed">
               <p>
-                <strong>Jag beställer helst på McDonalds:</strong>{" Truffles & Onions, bonaqua naturell och dubbel espresso."}
+                <strong>Jag beställer helst på McDonald's:</strong>{" Truffles & Onions, bonaqua naturell och dubbel espresso."}
               </p>
               <p>
                 <strong>Min favoritlåt:</strong>{" "}
               </p>
               <p>
-                <strong>Känt cita:</strong>{"Det kanske inte är vårt fel, men det är vårt ansvar att lösa det "}
+                <strong>Känt citat:</strong>{" Det kanske inte är vårt fel, men det är vårt ansvar att lösa det "}
               </p>
             </div>
           </div>
@@ -110,13 +110,13 @@ Under åren har jag varit delaktig i flera nyöppningar, ombyggnationer och impl
             </p>
             <div className="mt-4 text-sm text-gray-700 leading-relaxed">
               <p>
-                <strong>Jag beställer helst på McDonalds: </strong>{" Dubbel cheese och cola zero"}
+                <strong>Jag beställer helst på McDonald's: </strong>{" Dubbel cheese och cola zero"}
               </p>
               <p>
-                <strong>Min favoritlåt:</strong>{" “Happy” – Pharrell Williams som favorit låt på mig"}
+                <strong>Min favoritlåt:</strong>{" “Happy” – Pharrell Williams "}
               </p>
               <p>
-                <strong>Känt cita: </strong>{"Det spelar ingen roll hur långsamt du går så länge du inte stannar. "}
+                <strong>Känt citat: </strong>{"Det spelar ingen roll hur långsamt du går så länge du inte stannar"}
               </p>
             </div>
           </div>
@@ -142,13 +142,13 @@ Idag har jag arbetat som Supervisor i fem år och fått möjligheten att samarbe
             </p>
             <div className="mt-4 text-sm text-gray-700 leading-relaxed">
               <p>
-                <strong>Jag beställer helst på McDonalds:</strong>{" "}
+                <strong>Jag beställer helst på McDonald's: </strong>{" Filet-O-Fish"}
               </p>
               <p>
-                <strong>Min favoritlåt:</strong>{" "}
+                <strong>Min favoritlåt: </strong>{"Forever/ CKay  "}
               </p>
               <p>
-                <strong>Min favoritlåt:</strong>{" "}
+                <strong>Känt citat: </strong>{"Behandla andra så som du själv vill bli behandlad "}
               </p>
             </div>
           </div>
@@ -177,7 +177,7 @@ Idag har jag arbetat som Supervisor i fem år och fått möjligheten att samarbe
             </p>
             <div className="mt-4 text-sm text-gray-700 leading-relaxed">
               <p>
-                <strong>Jag beställer helst på McDonalds:</strong>
+                <strong>Jag beställer helst på McDonald's:</strong>
                 {" Filet-o-fish "}
               </p>
               <p>
@@ -206,14 +206,13 @@ Idag har jag arbetat som Supervisor i fem år och fått möjligheten att samarbe
             </h2>
             <p className="text-xl font-semibold mt-1">(Supervisor)</p>
             <p className="text-gray-800 mt-6 text-base leading-relaxed max-w-2xl">
-              Tillsammans med mina kollegor och restaurangchefer är jag med och
-              stöttar det dagliga arbetet. Jag brinner för att bidra till ett
-              starkt team, god kvalitet och en positiv upplevelse, både för
-              gäster och medarbetare.
+              Jag är 26 år och kommer från Örebro. Min resa inom restaurangbranschen började redan när jag var 16 år på McDonald’s Södermalmsplan. Det som först var en praktikplats blev snabbt något mycket mer. Jag fastnade direkt för arbetet och har sedan dess fått möjlighet att utvecklas både personligt och professionellt genom olika roller och nya utmaningar.
+
+Idag är jag en del av ett fantastiskt team där jag tillsammans med kollegor och restaurangchefer stöttar det dagliga arbetet och bidrar till att skapa en positiv arbetsmiljö. Jag brinner för att bygga starka team, leverera hög kvalitet och ge både gäster och medarbetare en riktigt bra upplevelse varje dag.
             </p>
             <div className="mt-4 text-sm text-gray-700 leading-relaxed">
               <p>
-                <strong>Jag beställer helst på McDonalds:</strong>
+                <strong>Jag beställer helst på McDonald's:</strong>
                 {" QP Meny, pommes, cola zero utan IS, Bea dipp 🙂"}
               </p>
               <p>
@@ -251,7 +250,7 @@ Idag har jag arbetat som Supervisor i fem år och fått möjligheten att samarbe
             </p>
             <div className="mt-4 text-sm text-gray-700 leading-relaxed">
               <p>
-                <strong>Jag beställer helst på McDonalds:</strong>
+                <strong>Jag beställer helst på McDonald's:</strong>
                 {" QP & dricker mjölk"}
               </p>
               <p>
@@ -292,7 +291,7 @@ Idag har jag arbetat som Supervisor i fem år och fått möjligheten att samarbe
             </p>
             <div className="mt-4 text-sm text-gray-700 leading-relaxed">
               <p>
-                <strong>Jag beställer helst på McDonalds:</strong>
+                <strong>Jag beställer helst på McDonald's:</strong>
                 {" McFeast meny (älskar det nya receptet!) "}
               </p>
               <p>
@@ -334,13 +333,13 @@ Idag har jag arbetat som Supervisor i fem år och fått möjligheten att samarbe
             </p>
             <div className="mt-4 text-sm text-gray-700 leading-relaxed">
               <p>
-                <strong>Jag beställer helst på McDonalds:</strong>{" "}
+                <strong>Jag beställer helst på McDonald's:</strong>{" Dblcheese (glutenfri), och flat white"}
               </p>
               <p>
-                <strong>Min favoritlåt:</strong>{" "}
+                <strong>Min favoritlåt:</strong>{" 踊り子 med Vaundy"}
               </p>
               <p>
-                <strong>Känt citat:</strong>{" "}
+                <strong>Känt citat:</strong>{" You can't make everyone happy. You're not a McFlurry"}
               </p>
             </div>
           </div>
@@ -369,7 +368,7 @@ Idag har jag arbetat som Supervisor i fem år och fått möjligheten att samarbe
             </p>
             <div className="mt-4 text-sm text-gray-700 leading-relaxed">
               <p>
-                <strong>Jag beställer helst på McDonalds:</strong>
+                <strong>Jag beställer helst på McDonald's:</strong>
                 {" Alltid McFeast "}
               </p>
               <p>
@@ -435,7 +434,47 @@ Idag har jag arbetat som Supervisor i fem år och fått möjligheten att samarbe
             </div>
           </div>
         </div>
+         {/* Thi Chau Nguyen */}
+        <div className="flex flex-col md:flex-row-reverse items-center md:items-start md:space-x-reverse md:space-x-12">
+          <div className="flex-shrink-0">
+            <img
+              src="/thi-y.png"
+              alt="Annika Östlund"
+              className="w-80 h-80 object-cover rounded-full"
+            />
+          </div>
+          <div className="mt-8 md:mt-0">
+            <h2 className="text-4xl font-extrabold leading-tight">
+              Thi  <span className="text-yellow-400"> Chau Nguyen</span>
+            </h2>
+            <p className="text-xl font-semibold mt-1">(Supervisor trainee )</p>
+            <p className="text-gray-800 mt-6 text-base leading-relaxed max-w-2xl">
+              Jag har arbetat på McDonald’s i över tio år och under den tiden fått erfarenhet från alla delar av restaurangen. En av de största höjdpunkterna i min karriär var när jag fick vara med och öppna den nya restaurangen i Bydalen som restaurangchef, en otroligt lärorik och spännande upplevelse.
+
+Idag arbetar jag som Supervisor Trainee och stöttar restaurangerna i Sundsvall. Jag brinner för utveckling, både min egen och andras, och för att skapa en arbetsmiljö där medarbetare trivs och gäster får en riktigt bra upplevelse.
+            </p>
+            <div className="mt-4 text-sm text-gray-700 leading-relaxed">
+              <p>
+                <strong>Jag beställer helst på McDonald's:</strong>
+                {"  "}
+              </p>
+              <p>
+                <strong>Min favoritlåt:</strong>
+                {"  "}
+              </p>
+              <p>
+                <strong>Känt citat:</strong>
+                {
+                  "   "
+                }
+              </p>
+            </div>
+          </div>
+        </div>
+
       </div>
+
+      
     </section>
   );
 };

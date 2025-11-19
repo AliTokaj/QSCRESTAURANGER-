@@ -39,7 +39,7 @@ const milestones = [
     year: "2025  ",
     title: "2000 anställda och driver 33 restauranger ",
     description:
-      "QSC koncernen har nu ca 2000 anställda i Sverige och Norge, driver 30 restauranger och tre öppningar är planerade.",
+      "QSC koncernen har nu ca 2000 anställda i Sverige och Norge, driver 31 restauranger och två öppningar är planerade.",
   },
 ];
 

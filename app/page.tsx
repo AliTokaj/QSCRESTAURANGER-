@@ -97,7 +97,7 @@ export default function Home() {
           transition={{ duration: 1, ease: "easeOut" }}
         >
           <motion.h1
-            className="text-4xl sm:text-6xl md:text-8xl font-bold text-white"
+            className="text-2xl sm:text-4xl md:text-6xl font-bold text-white"
             initial={{ scale: 0.9, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
             transition={{ delay: 0.3, duration: 0.8 }}
@@ -166,7 +166,7 @@ export default function Home() {
               <p className="text-gray-700 text-base sm:text-lg mt-4">
                 Sedan starten <span className="text-[#f9d00f]">1993</span> har
                 QSC Restauranger & Claes-Göran växt till att bli en respekterad
-                aktör inom den svenska restaurangbranschen. Vi äger och driver
+                aktör inom den svenska restaurangbranschen. Vi  driver
                 flera McDonald’s-restauranger i Sverige och bygger varje dag vår
                 verksamhet på tre grundpelare: kvalitet, service och renlighet,
                 alltid med gästen i fokus.
@@ -218,7 +218,7 @@ export default function Home() {
             </h2>
             <p className="text-2xl font-semibold mt-1">
               (Årets franchisetagare{" "}
-              <span className="text-yellow-400">2022</span>)
+              <span className="text-yellow-400">2019</span>)
             </p>
             <p className="text-gray-700 text-base sm:text-lg mt-4 ">
               Började jobba på McDonald's Örebro 1984 och hade redan då siktet
@@ -231,7 +231,7 @@ export default function Home() {
               restaurangerna Hälla och Stenby i Västerås. 2016/2017 blev jag
               kontaktad av norska McDonald's som behövde franchisetagare och då
               fick jag möjligheten att driva tre restauranger. Idag
-              har vi 21 restauranger i Sverige och 12 i Norge.
+              har vi 20 restauranger i Sverige och 11 i Norge med två öppningar planerade.
             </p>
           </motion.div>
         </div>

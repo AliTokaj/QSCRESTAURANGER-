@@ -13,9 +13,7 @@ const Page = () => {
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-display font-bold mb-6">
               Kontakta <span className="text-yellow-400">oss</span>
             </h1>
-            <h2 className="text-xl md:text-2xl font-medium text-gray-700">
-              Har du frågor eller funderingar?
-            </h2>
+           
           </div>
         </div>
       </section>
@@ -28,15 +26,12 @@ const Page = () => {
       <section className="bg-[#FBF7F7] py-12 px-4">
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div>
-            <span className="bg-[#FFFDD0] text-black px-4 py-1 rounded-full text-sm font-semibold uppercase tracking-wide">
-              Undrar du över något?
-            </span>
+           
             <h2 className="text-3xl md:text-4xl font-bold mt-4">
-              Hör av <span className="text-yellow-400">dig!</span>
+             Hör gärna av dig till  <span className="text-yellow-400">oss</span>
             </h2>
             <p className="text-gray-700 text-base sm:text-lg mt-2">
-              Skicka ett meddelande till oss, så hör vi av oss inom kort. Vi på QSC Restaurang AB är mer än glada att svara på dina synpunkter och frågor. 😊
-            </p>
+Vi på QSC uppskattar att höra från dig – oavsett om det gäller feedback, idéer eller bara en nyfiken fråga. Fyll i formuläret, så svarar vi så snart vi kan.            </p>
           </div>
 
           {/* Use the Client Component here */}
