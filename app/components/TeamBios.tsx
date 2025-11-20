@@ -21,16 +21,16 @@ const TeamBios = () => {
             <p className="text-xl font-semibold mt-1">(Franchisetagare)</p>
             <p className="text-gray-800 mt-6 text-base leading-relaxed max-w-2xl">
               Började jobba på McDonald's Örebro 1984 och hade redan då siktet
-              inställt högt och ville utvecklas inom McDonald's. Jag flyttade
-              till Västerås 1990 och fick möjlighet att vara ansvarig för de tre
-              befintliga restaurangerna. 1993 fick jag möjlighet att bli
-              franchisetagare (JWP) tillsammans med Svenska McDonalds och jag
-              drev då 9 restauranger. Från 2002 stod jag helt på egna ben och
-              fick köpa restaurangerna Hälla och Stenby i Västerås. 2016/2017
-              blev jag kontaktad av norska McDonald's som behövde
-              franchisetagare och då fick jag möjligheten att driva tre
-              restauranger i innlandet. Idag har vi 19 restauranger i Sverige
-              och 11 i Norge.
+              inställt högt och ville utvecklas inom McDonald's. 
+              Jag flyttade till Västerås 1990 och fick möjlighet att vara
+              ansvarig för de tre befintliga restaurangerna. 
+              1993 fick jag möjlighet att bli franchisetagare (JWP) tillsammans
+              med Svenska McDonalds och jag drev då 9 restauranger.
+              Från 2002 stod jag helt på egna ben och fick köpa
+              restaurangerna Hälla och Stenby i Västerås. 2016/2017 blev jag
+              kontaktad av norska McDonald's som behövde franchisetagare och då
+              fick jag möjligheten att driva tre restauranger. Idag
+              har vi 20 restauranger i Sverige och 11 i Norge med två öppningar planerade.
             </p>
             <div className="mt-4 text-sm text-gray-700 leading-relaxed">
               <p>
@@ -95,7 +95,7 @@ Under åren har jag varit delaktig i flera nyöppningar, ombyggnationer och impl
           </div>
           <div className="mt-8 md:mt-0">
             <h2 className="text-4xl font-extrabold leading-tight">
-              <span className="text-yellow-400">Aron</span>Yohannes
+              <span className="text-yellow-400">Aron</span> Yohannes
             </h2>
             <p className="text-xl font-semibold mt-1">(Supervisor)</p>
             <p className="text-gray-800 mt-6 text-base leading-relaxed max-w-2xl">
@@ -411,8 +411,8 @@ Idag är jag en del av ett fantastiskt team där jag tillsammans med kollegor oc
               mest helger och även extra under tiden jag gick i nian på
               högstadiet. Vid ca 25 årsålder fick jag möjligheten att börja
               jobba med underhåll av våra maskiner och då göra det på flera av
-              våra restauranger. Idag, 40 år senare är jag fortfarande kvar och
-              har hela Sverige som min arbetsyta!
+              våra restauranger . Idag, 40 år senare är jag fortfarande kvar och
+              har alla 20 restauranger  i Sverige som min arbetsyta!
             </p>
             <div className="mt-4 text-sm text-gray-700 leading-relaxed">
               <p>

@@ -12,9 +12,7 @@ const StatsSection = () => {
   return (
     <section className="bg-[#FBF7F7] py-12 ">
       <div className="max-w-5xl mx-auto text-center">
-        <span className="bg-[#FFFDD0] text-black px-4 py-1 rounded-full text-sm font-semibold uppercase tracking-wide">
-          QSC | FAKTA
-        </span>
+       
        
       </div>
 

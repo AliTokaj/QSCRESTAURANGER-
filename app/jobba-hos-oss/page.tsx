@@ -136,7 +136,7 @@ const JobbHosOss = () => {
                 ),
                 title: "Karriärsutveckling",
                 description:
-                  "Hos oss behöver du ingen tidigare erfarenhet – vi tror på att växa tillsammans. Med rätt vilja och engagemang ger vi dig verktygen att utvecklas, oavsett var du börjar.Det finns alltid något nytt att lära på våra restauranger, och utbildningen fortsätter så länge du vill framåt. Hur långt du går? - Det bestämmer du själv.",
+                  "Hos oss behöver du ingen tidigare erfarenhet – vi tror på att växa tillsammans. Med rätt vilja och engagemang ger vi dig verktygen att utvecklas, oavsett var du börjar. Det finns alltid något nytt att lära på våra restauranger, och utbildningen fortsätter så länge du vill framåt. Hur långt du går? - Det bestämmer du själv.",
               },
               {
                 icon: (

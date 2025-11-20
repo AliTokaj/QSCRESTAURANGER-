@@ -29,13 +29,14 @@ const Footer = () => {
             <h3 className="text-lg font-bold mb-4">Meny</h3>
             <ul className="space-y-2">
               <li>
-                <a href="/jobba-hos-oss" className="text-white/70 hover:text-yellow-500 transition-colors duration-300">Jobba hos oss</a>
+                <a href="/om-oss" className="text-white/70 hover:text-yellow-500 transition-colors duration-300">Resan hit
+</a>
               </li>
               <li>
-                <a href="/ledningsgrupp" className="text-white/70 hover:text-yellow-500 transition-colors duration-300">Ledningsgrupp</a>
+                <a href="/jobba-hos-oss" className="text-white/70 hover:text-yellow-500 transition-colors duration-300">Karriär hos oss</a>
               </li>
               <li>
-                <a href="/om-oss" className="text-white/70 hover:text-yellow-500 transition-colors duration-300">Om oss</a>
+                <a href="/ledningsgrupp" className="text-white/70 hover:text-yellow-500 transition-colors duration-300">Ledningsgruppen</a>
               </li>
               <li>
                 <a href="/ronald-mcdonald-barnfond" className="text-white/70 hover:text-yellow-500 transition-colors duration-300">Ronald McDonald</a>
@@ -47,35 +48,24 @@ const Footer = () => {
           </div>
           
           <div className="md:col-span-3">
-            <h3 className="text-lg font-bold mb-4">Kontakt</h3>
+            <h3 className="text-lg font-bold mb-4">QSC </h3>
             <ul className="space-y-2">
               <li className="text-white/70">
-               Stensborgsgatan 4, 721 32 Västerås
+              <a href="https://maps.app.goo.gl/kDWHr3NrAorZmBJbA
+" className="text-white/70 hover:text-yellow-500 transition-colors duration-300"> Stensborgsgatan 4, 721 32 Västerås</a>
+              
               </li>
               <li>
-                <a href="tel:+46812345678" className="text-white/70 hover:text-yellow-500 transition-colors duration-300">
-                  021-13 40 49
-                </a>
+                <a className="text-white/70 hover:text-yellow-500 transition-colors duration-300">
+Org.nr:556632-6475                </a>
               </li>
               <li>
-                <a href="mailto:info@Qsc.se
-" className="text-white/70 hover:text-yellow-500 transition-colors duration-300">
-                  info@Qsc.se
-                </a>
+
               </li>
             </ul>
           </div>
           
-          <div className="md:col-span-3">
-            <h3 className="text-lg font-bold mb-4">QSC</h3>
-            <ul className="space-y-2">
-              <li className="text-white/70">
-                <span className="block font-medium">Organisationsnummer</span>
-                556632-6475
-              </li>
-             
-            </ul>
-          </div>
+          
         </div>
         
         <div className="border-t border-white/10 mt-12 pt-8 text-center text-white/50 text-sm">

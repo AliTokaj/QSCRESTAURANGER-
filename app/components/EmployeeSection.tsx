@@ -64,6 +64,13 @@ Det som fick mig att vilja bli restaurangchef var att jag tidigare arbetade med 
 "
             imageSrc="/Erik.png"
           />
+               <EmployeeCard
+            name="Emmie   "
+            role="Handledare "
+            quote="Det bästa med att jobba på McDonald’s enligt mig är gemenskapen man får med kollegorna, att få leverera god mat som uppskattas av gästerna och se de nöjda. Jag uppskattar att jag fått möjligheter att utvecklas och ser fram emot att ta mig an rollen som handledare. Som handledare är det så roligt att se utvecklingen hos de nyanställda och få chansen att både hjälpa och stötta dem längst vägen.
+"
+            imageSrc="/Emmie.png"
+          />
          <EmployeeCard
             name="Cassandra   "
             role="Barista ledare"
@@ -81,13 +88,7 @@ Det som fick mig att vilja bli första assistent är flera anledningar. Men jag 
 "
             imageSrc="/Alice.png"
           />
-             <EmployeeCard
-            name="Emmie   "
-            role="Handledare "
-            quote="Det bästa med att jobba på McDonald’s enligt mig är gemenskapen man får med kollegorna, att få leverera god mat som uppskattas av gästerna och se de nöjda. Jag uppskattar att jag fått möjligheter att utvecklas och ser fram emot att ta mig an rollen som handledare. Som handledare är det så roligt att se utvecklingen hos de nyanställda och få chansen att både hjälpa och stötta dem längst vägen.
-"
-            imageSrc="/Emmie.png"
-          />
+        
             <EmployeeCard
             name="Monir    "
             role="Andra assistent"
@@ -96,6 +97,13 @@ Det som fick mig att vilja bli första assistent är flera anledningar. Men jag 
 Anledningen till att jag sökte mig till min nuvarande roll var viljan att ta mer ansvar och att ständigt utmana mig själv. Det jag uppskattar allra mest är att få vara med och utbilda nya kollegor och välkomna dem till vårt team.
 "
             imageSrc="/Monir.png"
+          />
+          <EmployeeCard
+            name="Alfred    "
+            role="Medarbetare "
+            quote="Mitt första intryck av McDonalds var att jag blev fascinerad av hur snabbt allt gick. Trots en bra introduktion kändes det långt bort att jag skulle hålla samma tempo som mina kollegor ute på golvet. Men på de drygt 10 pass jag har jobbat har jag lärt mig otroligt mycket tack vare fantastiska kollegorna. Nu ser jag fram emot att fortsätta utvecklas och i framtiden bli lika skicklig och bra på att lära ut som mina kollegor.
+"
+            imageSrc="/alfred.png"
           />
            
         

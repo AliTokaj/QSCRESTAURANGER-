@@ -56,17 +56,17 @@ const Navbar: React.FC = () => {
             Hem
             <span className="absolute left-1/2 bottom-0 w-0 h-[2px] bg-yellow-500 transition-all duration-300 group-hover:w-full group-hover:left-0"></span>
           </a>
+          <a href="/om-oss" className="relative group px-2 py-1">
+            Resan hit
+            <span className="absolute left-1/2 bottom-0 w-0 h-[2px] bg-yellow-500 transition-all duration-300 group-hover:w-full group-hover:left-0"></span>
+          </a>
           <a href="/jobba-hos-oss" className="relative group px-2 py-1">
-            Jobba hos oss
+            Karriär hos oss
+
             <span className="absolute left-1/2 bottom-0 w-0 h-[2px] bg-yellow-500 transition-all duration-300 group-hover:w-full group-hover:left-0"></span>
           </a>
           <a href="/ledningsgrupp" className="relative group px-2 py-1">
-            Ledningsgruppen
-            <span className="absolute left-1/2 bottom-0 w-0 h-[2px] bg-yellow-500 transition-all duration-300 group-hover:w-full group-hover:left-0"></span>
-          </a>
-          <a href="/om-oss" className="relative group px-2 py-1">
-            Om oss
-            <span className="absolute left-1/2 bottom-0 w-0 h-[2px] bg-yellow-500 transition-all duration-300 group-hover:w-full group-hover:left-0"></span>
+Ledningsgruppen            <span className="absolute left-1/2 bottom-0 w-0 h-[2px] bg-yellow-500 transition-all duration-300 group-hover:w-full group-hover:left-0"></span>
           </a>
           <a
             href="/ronald-mcdonald-barnfond"
@@ -100,11 +100,20 @@ const Navbar: React.FC = () => {
               <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-yellow-500 transition-all duration-300 group-hover:w-full"></span>
             </a>
             <a
+              href="/om-oss"
+              className="relative group py-1.5"
+              onClick={closeMenu}
+            >
+              Resan hit
+
+              <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-yellow-500 transition-all duration-300 group-hover:w-full"></span>
+            </a>
+            <a
               href="/jobba-hos-oss"
               className="relative group py-1.5"
               onClick={closeMenu}
             >
-              Jobba hos oss
+              Karriär hos oss
               <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-yellow-500 transition-all duration-300 group-hover:w-full"></span>
             </a>
             <a
@@ -113,14 +122,6 @@ const Navbar: React.FC = () => {
               onClick={closeMenu}
             >
               Ledningsgruppen
-              <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-yellow-500 transition-all duration-300 group-hover:w-full"></span>
-            </a>
-            <a
-              href="/om-oss"
-              className="relative group py-1.5"
-              onClick={closeMenu}
-            >
-              Om oss
               <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-yellow-500 transition-all duration-300 group-hover:w-full"></span>
             </a>
             <a

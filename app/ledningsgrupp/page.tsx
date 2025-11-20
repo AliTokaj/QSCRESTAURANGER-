@@ -20,9 +20,7 @@ const page = () => {
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-display font-bold mb-6">
               Vår <span className="text-yellow-400">ledningsgrupp i Sverige</span>
             </h1>
-            <h2 className="text-xl md:text-2xl font-medium text-gray-700">
-              Bakom varje välfungerande restaurang står ett starkt team
-            </h2>
+          
           </div>
         </div>
       </section>
