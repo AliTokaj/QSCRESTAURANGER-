@@ -3,7 +3,7 @@ import React from "react";
 
 const TeamBios = () => {
   return (
-    <section className="py-20 px-6">
+    <section className="py-20 px-6 mt-20">
       <div className="max-w-7xl mx-auto container-custom space-y-32">
         {/* clase */}
         <div className="flex flex-col md:flex-row items-center md:items-start md:space-x-12">

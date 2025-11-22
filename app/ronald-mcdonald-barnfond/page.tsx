@@ -190,7 +190,7 @@ const Page = () => {
       {/* Support Section */}
       <section className="bg-[#FBF7F7] py-12 px-4 mt-50">
         <div className="max-w-5xl mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl font-bold">
+          <h2 className="text-3xl md:text-5xl font-bold">
             Sätt att <span className="text-yellow-400">stötta</span>
           </h2>
           <p className="text-lg text-gray-600 mt-2">

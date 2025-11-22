@@ -80,7 +80,7 @@ const ValuesSection: React.FC = () => {
 
       {/* Sponsors Grid */}
       <div className="flex justify-center py-8 mt-10 relative z-10">
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-12 text-black text-left text-gray-700 text-base sm:text-lg">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-12 text-black text-left text-gray-700 text-base sm:text-lg">
           {columns.map((col, i) => (
             <div key={i} className="space-y-2">
               {col.map((sponsor, j) => (

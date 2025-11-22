@@ -189,7 +189,7 @@ const JobbHosOss = () => {
       <EmployeeSection />
 
       {/* FAQ Section */}
-      <section className=" py-16 px-4 sm:px-6 ">
+      <section className=" py-16 px-4 sm:px-6 mt-10">
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}

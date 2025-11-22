@@ -95,7 +95,7 @@ const Page = () => {
                 🏆 Latest Award
               </span>
               <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mt-4">
-                <span className="text-gray-900">Outstanding Restaurang</span>{" "}
+                <span className="text-gray-900">Outstanding Restaurant Of The Year</span>{" "}
                 <br />
                 <span className="text-yellow-500">2024</span>
               </h2>

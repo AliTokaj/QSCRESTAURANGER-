@@ -71,23 +71,23 @@ export default function Home() {
   return (
     <div>
       {/* ---------------- Hero Section ---------------- */}
-      <div className="relative h-screen flex items-center justify-center overflow-hidden">
-        <video
-          autoPlay
-          loop
-          muted
-          playsInline
-          disablePictureInPicture // 🚫 disables PiP button
-          controlsList="nodownload noremoteplayback" // optional: hides PiP & download in some browsers
-          poster="/hero-poster.jpg"
-          className="absolute z-0 w-auto min-w-full min-h-full max-w-none object-cover"
-        >
-          <source
-            src="https://pub-e2eba5a709ec4c6d95696e1f8e70f140.r2.dev/Invigning.mp4"
-            type="video/mp4"
-          />
-          Your browser does not support the video tag.
-        </video>
+      <div className="relative h-screen flex items-center justify-center overflow-hidden pt-20">
+       <video
+  autoPlay
+  loop
+  muted
+  playsInline
+  disablePictureInPicture
+  controls={false}                 // ✅ inga kontroller
+  controlsList="nodownload noremoteplayback noplaybackrate"
+  onContextMenu={(e) => e.preventDefault()}  // ✅ blockar högerklick
+  className="absolute z-0 w-auto min-w-full min-h-full max-w-none object-cover pointer-events-none"
+>
+  <source
+    src="https://pub-e2eba5a709ec4c6d95696e1f8e70f140.r2.dev/Invigning.mp4"
+    type="video/mp4"
+  />
+</video>
 
         {/* Animated Hero Text */}
         <motion.div
@@ -97,7 +97,7 @@ export default function Home() {
           transition={{ duration: 1, ease: "easeOut" }}
         >
           <motion.h1
-            className="text-2xl sm:text-4xl md:text-6xl font-bold text-white"
+            className="text-2xl sm:text-3xl md:text-5xl font-bold text-white"
             initial={{ scale: 0.9, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
             transition={{ delay: 0.3, duration: 0.8 }}
@@ -107,7 +107,7 @@ export default function Home() {
             <span className="text-[#F9D00F]">C</span>leanliness
           </motion.h1>
           <motion.p
-            className="mt-6 text-lg sm:text-xl md:text-2xl text-white max-w-2xl mx-auto"
+            className="mt-6 text-xs md:text-base text-white max-w-2xl mx-auto"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.6, duration: 0.8 }}
@@ -185,7 +185,7 @@ export default function Home() {
       <div
         className="max-w-7xl mx-auto container-custom relative overflow-hidden mt-20"
         style={{
-          backgroundImage: "url('/resturang-map.svg')",
+          backgroundImage: "url('/map.svg')",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}

@@ -1,5 +1,7 @@
 import React from 'react';
 import { Instagram, Facebook, Twitter, Linkedin } from 'lucide-react';
+import { SiTiktok } from "react-icons/si";
+
 
 const Footer = () => {
   const year = new Date().getFullYear();
@@ -16,11 +18,25 @@ const Footer = () => {
   alt="Sverige Norge karta"
   className="mb-6 md:w-3/4 w-full h-auto"
 />
-            <div className="flex space-x-4">
+            <div className="flex space-x-4 ">
               
-              <a href="https://www.linkedin.com/company/qsc-restauranger-ab" className="text-white/70 hover:text-yellow-500 transition-colors duration-300">
+              <a href="https://www.linkedin.com/company/qsc-restauranger-ab"
+               className="text-white/70 hover:text-yellow-500 transition-colors duration-300"
+               target="_blank"
+  rel="noopener noreferrer">
+                
                 <Linkedin size={40} />
               </a>
+              <a
+  href="https://www.tiktok.com/@mc.besties?_r=1&_t=ZN-91cKWzrNXxy" 
+  className="text-white/70 hover:text-yellow-500 transition-colors duration-300"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <SiTiktok size={40} />
+</a>
+
+               
             </div>
           </div>
           
@@ -57,7 +73,7 @@ const Footer = () => {
               </li>
               <li>
                 <a className="text-white/70 hover:text-yellow-500 transition-colors duration-300">
-Org.nr:556632-6475                </a>
+Org.nr: 556632-6475                </a>
               </li>
               <li>
 

@@ -14,7 +14,7 @@ const page = () => {
   return (
     <div>
       {/* Hero Section */}
-      <section className="pt-32 pb-20 md:pt-40 md:pb-28 relative bg-[#FBF7F7]">
+      <section className="pt-32 pb-20 md:pt-40 md:pb-28 relative bg-[#FBF7F7] ">
         <div className="container-custom">
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-display font-bold mb-6">
