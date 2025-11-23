@@ -226,8 +226,45 @@ Idag är jag en del av ett fantastiskt team där jag tillsammans med kollegor oc
             </div>
           </div>
         </div>
-         {/* Helene */}
+         {/* Thi Chau Nguyen */}
         <div className="flex flex-col md:flex-row items-center md:items-start md:space-x-12">
+          <div className="flex-shrink-0">
+            <img
+              src="/thi-y.png"
+              alt="Annika Östlund"
+              className="w-80 h-80 object-cover rounded-full"
+            />
+          </div>
+          <div className="mt-8 md:mt-0">
+            <h2 className="text-4xl font-extrabold leading-tight">
+              Thi  <span className="text-yellow-400"> Chau Nguyen</span>
+            </h2>
+            <p className="text-xl font-semibold mt-1">(Supervisor trainee )</p>
+            <p className="text-gray-800 mt-6 text-base leading-relaxed max-w-2xl">
+              Jag har arbetat på McDonald’s i över tio år och under den tiden fått erfarenhet från alla delar av restaurangen. En av de största höjdpunkterna i min karriär var när jag fick vara med och öppna den nya restaurangen i Bydalen som restaurangchef, en otroligt lärorik och spännande upplevelse.
+
+Idag arbetar jag som Supervisor Trainee och stöttar restaurangerna i Sundsvall. Jag brinner för utveckling, både min egen och andras, och för att skapa en arbetsmiljö där medarbetare trivs och gäster får en riktigt bra upplevelse.
+            </p>
+            <div className="mt-4 text-sm text-gray-700 leading-relaxed">
+              <p>
+                <strong>Jag beställer helst på McDonald's:</strong>
+                {" Spicy Nuggets med hotchili dip och Sprite zero "}
+              </p>
+              <p>
+                <strong>Min favoritlåt:</strong>
+                {" how you like that - black pink "}
+              </p>
+              <p>
+                <strong>Känt citat:</strong>
+                {
+                  "   keep your eyes on your fries  "
+                }
+              </p>
+            </div>
+          </div>
+        </div>
+         {/* Helene */}
+        <div className="flex flex-col md:flex-row-reverse items-center md:items-start md:space-x-reverse md:space-x-12">
           <div className="flex-shrink-0">
             <img
               src="/helene-y.png"
@@ -267,7 +304,7 @@ Idag är jag en del av ett fantastiskt team där jag tillsammans med kollegor oc
           </div>
         </div>
          {/* Ida */}
-        <div className="flex flex-col md:flex-row-reverse items-center md:items-start md:space-x-reverse md:space-x-12">
+        <div className="flex flex-col md:flex-row items-center md:items-start md:space-x-12">
           <div className="flex-shrink-0">
             <img
               src="/ida-y.png"
@@ -311,7 +348,7 @@ Idag är jag en del av ett fantastiskt team där jag tillsammans med kollegor oc
         </div>
         
         {/* Felicia */}
-        <div className="flex flex-col md:flex-row items-center md:items-start md:space-x-12">
+        <div className="flex flex-col md:flex-row-reverse items-center md:items-start md:space-x-reverse md:space-x-12">
           <div className="flex-shrink-0">
             <img
               src="/felicia-y.png"
@@ -346,7 +383,7 @@ Idag är jag en del av ett fantastiskt team där jag tillsammans med kollegor oc
         </div>
 
         {/* Annika */}
-        <div className="flex flex-col md:flex-row-reverse items-center md:items-start md:space-x-reverse md:space-x-12">
+        <div className="flex flex-col md:flex-row items-center md:items-start md:space-x-12">
           <div className="flex-shrink-0">
             <img
               src="/Annika-y.png"
@@ -385,15 +422,8 @@ Idag är jag en del av ett fantastiskt team där jag tillsammans med kollegor oc
           </div>
         </div>
 
-       
-       
-
-       
-      
-
-
         {/* Yousef */}
-        <div className="flex flex-col md:flex-row items-center md:items-start md:space-x-12">
+        <div className="flex flex-col md:flex-row-reverse items-center md:items-start md:space-x-reverse md:space-x-12">
           <div className="flex-shrink-0">
             <img
               src="/Yousef-y.png"
@@ -434,43 +464,7 @@ Idag är jag en del av ett fantastiskt team där jag tillsammans med kollegor oc
             </div>
           </div>
         </div>
-         {/* Thi Chau Nguyen */}
-        <div className="flex flex-col md:flex-row-reverse items-center md:items-start md:space-x-reverse md:space-x-12">
-          <div className="flex-shrink-0">
-            <img
-              src="/thi-y.png"
-              alt="Annika Östlund"
-              className="w-80 h-80 object-cover rounded-full"
-            />
-          </div>
-          <div className="mt-8 md:mt-0">
-            <h2 className="text-4xl font-extrabold leading-tight">
-              Thi  <span className="text-yellow-400"> Chau Nguyen</span>
-            </h2>
-            <p className="text-xl font-semibold mt-1">(Supervisor trainee )</p>
-            <p className="text-gray-800 mt-6 text-base leading-relaxed max-w-2xl">
-              Jag har arbetat på McDonald’s i över tio år och under den tiden fått erfarenhet från alla delar av restaurangen. En av de största höjdpunkterna i min karriär var när jag fick vara med och öppna den nya restaurangen i Bydalen som restaurangchef, en otroligt lärorik och spännande upplevelse.
-
-Idag arbetar jag som Supervisor Trainee och stöttar restaurangerna i Sundsvall. Jag brinner för utveckling, både min egen och andras, och för att skapa en arbetsmiljö där medarbetare trivs och gäster får en riktigt bra upplevelse.
-            </p>
-            <div className="mt-4 text-sm text-gray-700 leading-relaxed">
-              <p>
-                <strong>Jag beställer helst på McDonald's:</strong>
-                {"  "}
-              </p>
-              <p>
-                <strong>Min favoritlåt:</strong>
-                {"  "}
-              </p>
-              <p>
-                <strong>Känt citat:</strong>
-                {
-                  "   "
-                }
-              </p>
-            </div>
-          </div>
-        </div>
+        
 
       </div>
 

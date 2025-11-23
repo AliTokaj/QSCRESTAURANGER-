@@ -20,7 +20,7 @@ const EmployeeCard: React.FC<EmployeeCardProps> = ({
     </div>
     <div>
       <p className="text-xl md:text-2xl font-display font-bold ">{name}</p>
-      <p className="text-sm">{role}</p>
+      <p className="text-sm font-bold">{role}</p>
       <p className="text-sm italic mt-1">"{quote}"</p>
     </div>
   </div>
