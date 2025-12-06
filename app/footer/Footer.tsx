@@ -76,6 +76,13 @@ const Footer = () => {
 Org.nr: 556632-6475                </a>
               </li>
               <li>
+                <a  href="/Integritetspolicy"  className="text-white/70 hover:text-yellow-500 transition-colors duration-300">
+   
+   
+  
+    Integritetspolicy
+    </a>
+ 
 
               </li>
             </ul>
@@ -88,11 +95,11 @@ Org.nr: 556632-6475                </a>
           <p>© {year} QSC Restauranger. All rights reserved.</p>
         </div>
         <div className="text-white/50 text-sm text-center mt-10">
-          <p> Powered by <a href='https://drifaab.se/' className="hover:text-yellow-500 transition-colors duration-300">Drifa </a></p>
+          <p> Powered by Drifa </p>
         </div>
       </div>
     </footer>
   );
 };
-
+//<a href='https://drifaab.se/' className="hover:text-yellow-500 transition-colors duration-300"></a>
 export default Footer;

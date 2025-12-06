@@ -1,57 +1,56 @@
-"use client"; // Mark this as a Client Component
+"use client";
 
-import React, { useState, useRef } from 'react';
-import emailjs from '@emailjs/browser';
+import React, { useState, useRef } from "react";
 
 const ContactForm = () => {
   const [isSubmitted, setIsSubmitted] = useState(false);
-  const [isSubmitting, setIsSubmitting] = useState(false); // New state for submission status
-  const formRef = useRef<HTMLFormElement>(null); // Create a ref for the form
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const formRef = useRef<HTMLFormElement>(null);
 
   const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
-    event.preventDefault(); // Prevent the default form submission
-
-    // Set isSubmitting to true to disable the button
+    event.preventDefault();
     setIsSubmitting(true);
 
-    // Access form data
     const formData = new FormData(event.currentTarget);
-    const name = formData.get('name') as string;
-    const email = formData.get('email') as string;
-    const message = formData.get('message') as string;
+    const name = formData.get("name") as string;
+    const email = formData.get("email") as string;
+    const message = formData.get("message") as string;
 
-    // Basic validation
+    // Grundläggande validering
     if (!name || !email || !message) {
-      alert('Alla fält är obligatoriska!');
-      setIsSubmitting(false); // Re-enable the button if validation fails
+      alert("Alla fält är obligatoriska!");
+      setIsSubmitting(false);
       return;
     }
 
     try {
-      // Send email using EmailJS
-      const response = await emailjs.send(
-        'service_2ryb1kf',
-        'template_1thcuef',
-        {
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
           name,
           email,
           message,
-        },
-        'GD9LpjnSaLKrIhmEc'
-      );
+        }),
+      });
 
-      console.log('Email sent successfully!', response);
-      setIsSubmitted(true); // Set the state to true to show the thank you message
+      if (!response.ok) {
+        throw new Error("Failed to send message");
+      }
 
-      // Reset the form using the ref
+      console.log("E-post skickad framgångsrikt!");
+      setIsSubmitted(true);
+
       if (formRef.current) {
         formRef.current.reset();
       }
     } catch (error) {
-      console.error('Failed to send email:', error);
-      alert('Failed to send your message. Please try again later.');
+      console.error("Fel vid skickande av e-post:", error);
+      alert("Kunde inte skicka ditt meddelande. Försök igen senare.");
     } finally {
-      setIsSubmitting(false); // Re-enable the button after the request is complete
+      setIsSubmitting(false);
     }
   };
 
@@ -60,9 +59,9 @@ const ContactForm = () => {
       {isSubmitted ? (
         <div className="text-center">
           <img
-            src="/tack-unscreen.gif" // Path to your image
-            alt="Big Mac"
-            className="mx-auto w-80 h-80" // Adjust size as needed
+            src="/tack-unscreen.gif"
+            alt="Tack"
+            className="mx-auto w-80 h-80"
           />
           <p className="text-[#F9D00F] font-bold mb-4">
             Tack för ditt meddelande. Det har skickats.
@@ -94,9 +93,9 @@ const ContactForm = () => {
           <button
             type="submit"
             className="w-full bg-[#F9D00F] text-white font-semibold py-3 rounded-md transition duration-300 hover:bg-[#F0AE2C] disabled:opacity-50 disabled:cursor-not-allowed"
-            disabled={isSubmitting} // Disable the button when submitting
+            disabled={isSubmitting}
           >
-            {isSubmitting ? 'Skickar...' : 'SKICKA'} {/* Change button text when submitting */}
+            {isSubmitting ? "Skickar..." : "SKICKA"}
           </button>
         </form>
       )}
