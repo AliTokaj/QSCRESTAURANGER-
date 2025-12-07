@@ -1,5 +1,9 @@
 "use client";
+
 import React from "react";
+import Image from "next/image";
+import thiImage from "../assets/Thi-y.png";
+
 
 const TeamBios = () => {
   return (
@@ -230,8 +234,8 @@ Idag är jag en del av ett fantastiskt team där jag tillsammans med kollegor oc
         <div className="flex flex-col md:flex-row items-center md:items-start md:space-x-12">
           <div className="flex-shrink-0">
             <img
-              src="/thi-y.png"
-              alt="Annika Östlund"
+              src={thiImage.src}
+              alt="Thi Chau Nguyen "
               className="w-80 h-80 object-cover rounded-full"
             />
           </div>
