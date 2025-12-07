@@ -76,7 +76,7 @@ Under åren har jag varit delaktig i flera nyöppningar, ombyggnationer och impl
                 <strong>Jag beställer helst på McDonald's:</strong>{" Truffles & Onions, bonaqua naturell och dubbel espresso."}
               </p>
               <p>
-                <strong>Min favoritlåt:</strong>{" "}
+                <strong>Min favoritlåt:</strong>{" Stad i ljus - Tommy Körberg "}
               </p>
               <p>
                 <strong>Känt citat:</strong>{" Det kanske inte är vårt fel, men det är vårt ansvar att lösa det "}
